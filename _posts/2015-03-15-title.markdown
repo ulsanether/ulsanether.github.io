@@ -1,28 +1,24 @@
 ---
 layout: post
-title:  a post with formatting and links
-date:   2015-03-15 16:40:16
-description: march & april, looking forward to summer
+title: 여름을 기대하는 3월 & 4월
+date: 2015-03-15 16:40:16
+description: 여름이 기다려지는 3월과 4월
 ---
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com" target="blank">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice" target="blank">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+진청 반바지 래이더 Vice 노름코어, 아트 파티 하이라이프 PBR 스케이트보드 스탬프타운 비닐 키치. 포 로코 메이 8비트, 당긴 반미 틸드 포레이지 Schlitz 드림캐처 트위 3 늑대 달. 샴브레이 비대칭 팔레오 살비아, 사토리얼 우마미 포 로코 마스터 클렌즈 식초 브런치. <a href="https://www.pinterest.com" target="blank">Pinterest</a> DIY 정통 Schlitz, 후드 인텔리전시아 도축 트러스트 펀드 브런치 셰비 시크 킥스타터 포레이지 플렉시타리언. 다이렉트 트레이드 <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice" target="blank">콜드프레스 주스</a> 매깅 스탬프타운 체크 팝업 액세서리. 후드 XOXO 핑거스타치 신스터 에코 파크. 체크 우 에스 앤더슨, 프리건 퍼그 셀비지 패니 팩 레깅스 피클 푸드 트럭 DIY 아이러니 뱅크시.
 
-#### Hipster list
+###힙스터 리스트
 <ul>
-	<li>brunch</li>
-	<li>fixie</li>
-	<li>raybans</li>
-	<li>messenger bag</li>
+	<li>브런치</li>
+	<li>픽시</li>
+	<li>레이밴</li>
+	<li>메신저 백</li>
 </ul>
-
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan. 
+후드 썬더캣 레트로, 토트백 8비트 고다르드 크래프트 맥주 게스트로펍. 트뤼포 텀블러 멍게 조리대, 진청 킥스타터 사토리얼 드림캐처. 퀴노아 샴브레이 슬로우카브 살비아 리디메이드, 자전거 권리 90년대 옆자리 타자기 셀카 인쇄 카디건 비건.
 
 <hr>
 <br/>
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar. 
-
+퍼그 아이어룸 하이라이프 비닐 스웨그, 싱글 오리진 커피 4달러 토스트 살취부주의 fap 증류소 마스터 클렌즈 로컬보어. Est anim sapiente 레깅스 브루클린 ea. 썬더캣 로컬보어 이셉투르 베니암 eiusmod. 진청 트뤼포 Schlitz, 미가스 사피엔테 포틀랜드 VHS 트위 부시윅 마르파 타자기 레트로 id 키타르.
 <blockquote>
-	We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another. 
-	—Anais Nin
+	우리는 절대적으로, 연대적으로 성장하지 않습니다. 때로는 한 차원에서만, 다른 차원에서는 성장합니다. 우리는 부분적으로 성장합니다. 우리는 상대적입니다. 한 분야에서는 성숙하고 다른 분야에서는 아이입니다.
+	—아나이스 닌
 </blockquote>
-
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
