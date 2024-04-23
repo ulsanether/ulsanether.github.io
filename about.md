@@ -9,6 +9,8 @@ permalink: /about/
 <br/>
 울산에 거주하는 개발자.
 
+개인적인 것들. 
+
 
 
 <br/>
@@ -21,6 +23,6 @@ permalink: /about/
 </span>
 
 <div class="col three caption">
-	You can even add a little note about which of these is the best way to reach you.
+	그 외의 링크들.
 </div>
 
