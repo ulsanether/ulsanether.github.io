@@ -2,7 +2,7 @@
 title: DaftWork
 email: hangmini12@naver.com
 description: > # this means to ignore newlines until "baseurl:"
-  블로그
+  A simple, whitespace, helvetica based portfolio theme.
 baseurl:  # the subpath of your site, e.g. /blog/
 url: ulsanether.github.io
 username: DaftWork
