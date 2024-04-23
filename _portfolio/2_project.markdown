@@ -5,8 +5,7 @@ description: 3d 프린터 필라멘트 5개의 스풀을 걸 수 있는 박스.
 img: /img/portfolio/end02/2.png
 ---
 
-설계 파일은 어디다 뒀는지 모르겠다. 
-
+설계 파일은 퓨전열면 있을건데, 깃에 올려뒀던 것을 파일 정리하면서 폭파시켜 버렸다.  
 
 <div class="img_row">
 	<img class="col one" src="{{ site.baseurl }}/img/portfolio/end02/1.png" alt="" title="example image"/>
@@ -18,7 +17,8 @@ img: /img/portfolio/end02/2.png
 
 
 <div class="col three caption">
- 당시에 시판하는 스풀박스를 참고해서 만들었는데, 실제로 제작은 하다 말았다. 이제 3d프린터에 흥미가 떨어져서 관심 무가 되어버렸다. 
+설계 파일과 stl파일 
+
 </div>
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/portfolio/end02/6.png" alt="" title="example image"/>
@@ -27,7 +27,7 @@ img: /img/portfolio/end02/2.png
 	This image can also have a caption. It's like magic. 
 </div>
 
-You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
+ 당시에 시판하는 스풀박스를 참고해서 만들었는데, 실제로 제작은 하다 말았다. 이제 3d프린터에 흥미가 떨어져서 관심 무가 되어버렸다. 
 
 
 <div class="img_row">
@@ -35,7 +35,7 @@ You can also put regular text between your rows of images. Say you wanted to wri
 	<img class="col one" src="{{ site.baseurl }}/img/portfolio/end02/8.png" alt="" title="example image"/>
 </div>
 <div class="col three caption">
-	You can also have artistically styled 2/3 + 1/3 images, like these.
+이것 저것 이미지.
 </div>
 
 
