@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 5컬러 스플 박스
+title: 5컬러 스풀 박스
 description: 3d 프린터 필라멘트 5개의 스풀을 걸 수 있는 박스. 
 img: /img/portfolio/end02/2.png
 ---
@@ -24,11 +24,13 @@ img: /img/portfolio/end02/2.png
 	<img class="col three" src="{{ site.baseurl }}/img/portfolio/end02/6.png" alt="" title="example image"/>
 </div>
 <div class="col three caption">
-	This image can also have a caption. It's like magic. 
+	최종 완성된 이미지
 </div>
 
- 당시에 시판하는 스풀박스를 참고해서 만들었는데, 실제로 제작은 하다 말았다. 이제 3d프린터에 흥미가 떨어져서 관심 무가 되어버렸다. 
-
+ 당시에 시판하는 스풀박스를 참고해서 만들었는데, 실제 설계는 한후에 제작은 하다 말았다.
+<br/>
+ 이제 3d프린터에 흥미가 떨어져서 관심 무가 되어버렸다. 
+<br/><br/>
 
 <div class="img_row">
 	<img class="col two" src="{{ site.baseurl }}/img/portfolio/end02/7.png" alt="" title="example image"/>
