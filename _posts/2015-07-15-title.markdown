@@ -1,14 +1,14 @@
 ---
 layout: post
-title: a post with code
+title: 코드가 포함된 글
 date: 2015-07-15 15:09:00
-description: an example of a blog post with some code
+description: 코드가 포함된 블로그 글의 예시입니다
 ---
-This theme implements a built-in Jekyll feature, the use of Pygments, for sytanx highlighting. It supports more than 100 languages. This example is in C++. All you have to do is wrap your code in a liquid tag: 
+이 테마는 파이그먼츠(Pygments)를 사용한 내장된 제킬(Jekyll) 기능을 구현합니다. 이 기능은 100가지가 넘는 언어를 지원합니다. 이 예제는 C++로 작성되었습니다. 코드를 묶어서 리퀴드 태그로 감싸면 됩니다:
 {% raw  %}
 {% highlight c++ %}  <br/> code code code <br/> {% endhighlight %}{% endraw %}
 
-Produces something like this: 
+이렇게 하면 다음과 같은 결과가 나옵니다:
 
 {% highlight c++ %}
 

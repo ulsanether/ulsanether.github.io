@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  a post with images
+title: 이미지를 포함한 글
 date: 2015-05-15 21:01:00
-description: this is what included images could look like
+description: 이미지가 포함된 글의 예시입니다.
 ---
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Fingerstache four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. 
+진청 반바지 래이더 Vice 노름코어, 아트 파티 하이라이프 PBR 스케이트보드 스탬프타운 비닐 키치. 핑거스타치 포 로코 메이 8비트, 당긴 반미 틸드 포레이지 Schlitz 드림캐처 트위 3 늑대 달. 샴브레이 비대칭 팔레오 살비아, 사토리얼 우마미 포 로코 마스터 클렌즈 식초 브런치.
 
 <div class="img_row">
 	<img class="col three" src="/img/9.jpg">
@@ -13,15 +13,13 @@ Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptow
 	<img class="col three" src="{{ site.baseurl }}/img/9.jpg">
 </div>
 <div class="col three caption">
-	A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all. 
+	간단하고 우아한 캡션은 이미지 행 사이, 각 행 뒤 또는 아예 없어도 좋습니다. 
 </div>
 <div class="img_row">
 	<img class="col two" src="/img/8.jpg">
 	<img class="col one" src="/img/10.jpg">
 </div>
-
-Slow-carb four dollar toast Helvetica pop-up. Kale chips next level literally trust fund Pitchfork. Jean shorts Pinterest beard, farm-to-table irony craft beer swag tofu 8-bit Banksy. Quinoa forage fanny pack, pug hashtag Echo Park heirloom Schlitz tote bag artisan Neutra mumblecore 90's shabby chic raw denim.
-
+슬로-카브 4달러 토스트 헬베티카 팝업. 케일 칩은 다음 단계를 의미하며, 실제로 신뢰할 수 있는 피치포크입니다. 진청 반바지 Pinterest 수염, 팜투테이블 아이러니 크래프트 맥주 스웨그 두부 8비트 뱅크시. 퀴노아 포레이지 패니 팩, 퍼그 해시태그 에코 파크 아이어룸 Schlitz 토트백 아티잔 뉴트라 멤블코어 90년대 셰비 시크 원단.
 
 <div class="img_row">
 	<img class="col one" src="/img/11.jpg">
