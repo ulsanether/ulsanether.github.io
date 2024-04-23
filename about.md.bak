@@ -15,9 +15,9 @@ permalink: /about/
 <hr/>
 <br/>
 <span class="contacticon center">
-	<a href="mailto:hangmini12@neaver.com"><i class="fa fa-envelope-square"></i></a>
-	<a href="https://github.com/ulsanether" target="_blank"><i class="fa fa-github-square"></i></a>
-	<a href="https://hangmini-blog.tumblr.com/?og=1" target="_blank"><i class="fa fa-tumblr-square"></i></a>
+	<a href="mailto:you@example.com"><i class="fa fa-envelope-square"></i></a>
+	<a href="https://github.com" target="_blank"><i class="fa fa-github-square"></i></a>
+	<a href="http://tumblr.com" target="_blank"><i class="fa fa-tumblr-square"></i></a>
 </span>
 
 <div class="col three caption">
