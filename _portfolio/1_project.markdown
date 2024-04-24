@@ -8,7 +8,7 @@ img: /img/portfolio/end01/2.png
 
 
 <div class="img_row">
-	<img class="col one" src="{{ site.baseurl }} /img/portfolio/end01/2.png" alt="" title="example image"/>
+	<img class="col two" src="{{ site.baseurl }} /img/portfolio/end01/2.png" alt="" title="example image"/>
 	<img class="col one" src="{{ site.baseurl }} /img/portfolio/end01/3.png" alt="" title="example image"/>
 
 </div>

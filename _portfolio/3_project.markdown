@@ -2,7 +2,7 @@
 layout: post
 title: 평발 깔창
 description: 딸아이를 위한 평발 깔창.  
-img: /img/portfolio/end02/2.png
+img: /img/portfolio/end03/2_(1).png
 ---
 
 
@@ -23,7 +23,7 @@ img: /img/portfolio/end02/2.png
  가변 인필로 조절해서 뽑았는데, 무리하지 않는 선에서 뽑아 딸아이 신발에 넣어 줬다. 전에 울산 대학교에서 3d프린팅 관련 컨퍼런스에서 본 깔창과 학원에 다니는 아이의 깔창을 조금 참고 했다. 깔창을 신은지 3~4개월 정도 되었는데, 업체에서는 1년마다 교체를 하는것 같지만 나는 6개월마다 교정을 하려고 한다. 
 <br/>
 <div class="img_row">
-	<img class="col one" src="{{ site.baseurl }}/img/portfolio/end03/KakaoTalk_20190228_032423397.jpg" alt="" title="example image"/>
+	<img class="col two" src="{{ site.baseurl }}/img/portfolio/end03/KakaoTalk_20190228_032423397.jpg" alt="" title="example image"/>
 </div>
 
 <br/>
