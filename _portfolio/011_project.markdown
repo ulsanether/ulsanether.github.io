@@ -2,7 +2,7 @@
 layout: post
 title: 오픈 라우터테이블
 description: 아두이노나 람프스 보드를 이용해 만수 있는 전동라우터 테이블. 
-img: /img/portfolio/end11/1.jpg
+img: /img/portfolio/end11/1.png
 ---
 
 
@@ -24,7 +24,7 @@ img: /img/portfolio/end11/1.jpg
 
 
 <div class="img_row">
-<img class="col two" src="{{ site.baseurl }} /img/portfolio/end11/1.jpg" alt="" title="example image"/>
+<img class="col two" src="{{ site.baseurl }} /img/portfolio/end11/1.png" alt="" title="example image"/>
 
 </div>
 
