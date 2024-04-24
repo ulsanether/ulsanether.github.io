@@ -12,7 +12,12 @@ img: /img/portfolio/end08/1.jpg
 
 자세한 제작글은 네이버블로그에 적어 놨다 .
 
-​
+​<파일링크>
+
+[Ender_3_Assembly v36.f3d](../../img/portfolio/end08/Ender_3_Assembly v36.f3d)
+[PrusaSlicer_config_bundle.ini](../../img/portfolio/end08/PrusaSlicer_config_bundle.ini)
+[Untitled v15.stl](../../img/portfolio/end08/Untitled v15.stl)
+
 <br/>
 
 <div class="img_row">
@@ -57,10 +62,6 @@ img: /img/portfolio/end08/1.jpg
 
 ​
 
-​
-
-​
-
 8C  ------------------------------------------------------->>>>>>> 스위치
 
  1A  1 1B  :  3A  3  3B      :     A1  A  A2   :   C1   C   C2
@@ -68,9 +69,7 @@ img: /img/portfolio/end08/1.jpg
  2A  2 2B  :  4A  4  4B      :     B1   B  B2    :   D1  D   D2
 
 ​
-
-​
-
+\
 삽질 하다 보니 새벽 4시가 되 버렸다. 오늘 하루를 어떻게 버틸지 걱정이다. 
 
  
