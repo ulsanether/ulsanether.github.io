@@ -38,10 +38,6 @@ img: /img/portfolio/end17/1.jpg
 <img class="col one" src="{{ site.baseurl }} /img/portfolio/end17/9.png" alt="" title="example image"/>
 </div>	
 <div class="img_row">
-<img class="col two" src="{{ site.baseurl }} /img/portfolio/end17/7.jpg" alt="" title="example image"/>
-<img class="col one" src="{{ site.baseurl }} /img/portfolio/end17/8.jpg" alt="" title="example image"/>
-</div>	
-<div class="img_row">
 <img class="col one" src="{{ site.baseurl }} /img/portfolio/end17/10.jpg" alt="" title="example image"/>
 <img class="col one" src="{{ site.baseurl }} /img/portfolio/end17/11.jpg" alt="" title="example image"/>
 <img class="col one" src="{{ site.baseurl }} /img/portfolio/end17/12.jpg" alt="" title="example image"/>
