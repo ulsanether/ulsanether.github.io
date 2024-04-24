@@ -86,16 +86,15 @@ https://drive.google.com/file/d/1eZ83m4iNKAuGIzK7fxnhZZi33JZ9-gCk/view?usp=shari
 <img class="col one" src="{{ site.baseurl }} /img/portfolio/end05/6.jpg" alt="" title="example image"/>
 <img class="col one" src="{{ site.baseurl }} /img/portfolio/end05/9.jpg" alt="" title="example image"/>
 
-</div>
 
 </div>
  
 <div class="img_row">
 <img class="col one" src="{{ site.baseurl }} /img/portfolio/end05/10.jpg" alt="" title="example image"/>
-<img class="col one" src="{{ site.baseurl }} /img/portfolio/end05/11.jpg" alt="" title="example image"/>
+<img class="col one" src="{{ site.baseurl }} /img/portfolio/end05/11.png" alt="" title="example image"/>
 <img class="col one" src="{{ site.baseurl }} /img/portfolio/end05/12.jpg" alt="" title="example image"/>
 
-</div>
+
 </div>
  
 <div class="img_row">
@@ -105,7 +104,8 @@ https://drive.google.com/file/d/1eZ83m4iNKAuGIzK7fxnhZZi33JZ9-gCk/view?usp=shari
 
 </div>
 ----
-나머지 기록 링크 
+# 나머지 기록 링크 
+
 https://blog.naver.com/hangmini12/221321429600
 
 https://blog.naver.com/hangmini12/221321132828
