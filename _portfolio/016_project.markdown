@@ -33,8 +33,4 @@ img: /img/portfolio/end16/1.jpg
 </div>	
 
 ----------
-나머지 링크 
 
-https://github.com/ulsanether/comment-translator
-
-등등
