@@ -9,6 +9,16 @@ img: /img/portfolio/end06/1.jpg
 
 # 2019. 12. 10. 13:46
 
+
+
+
+<div class="img_row">
+<img class="col two" src="{{ site.baseurl }} /img/portfolio/end06/1.jpg" alt="" title="example image"/>
+
+
+		
+</div>
+
 grbl2 방식의 co2레이저 커터이다. 
 
 보드는 mks sbase 1.3v  (스무디웨어 보드)
@@ -105,9 +115,9 @@ co2용 cnc쉴드와 옥토프린터를 시험해 봤다. 간단한 테스트만 
 ​
 
 <div class="img_row">
-<img class="col one" src="{{ site.baseurl }} /img/portfolio/end05/7.jpg" alt="" title="example image"/>
-<img class="col one" src="{{ site.baseurl }} /img/portfolio/end05/8.jpg" alt="" title="example image"/>
-<img class="col one" src="{{ site.baseurl }} /img/portfolio/end05/9.jpg" alt="" title="example image"/>
+<img class="col one" src="{{ site.baseurl }} /img/portfolio/end06/7.jpg" alt="" title="example image"/>
+<img class="col one" src="{{ site.baseurl }} /img/portfolio/end06/8.jpg" alt="" title="example image"/>
+<img class="col one" src="{{ site.baseurl }} /img/portfolio/end06/9.jpg" alt="" title="example image"/>
 </div>
 
 
@@ -199,30 +209,3 @@ co2용 cnc쉴드와 옥토프린터를 시험해 봤다. 간단한 테스트만 
 
  어쨌거나, 보드를 교체해보자고 생각하고, 남아 도는 CNC쉴드로 교체를 해 보려 했습니다. 가능 할 거라 생각했지만, 실행하기 까지 시간이 좀 필요 했습니다. 가장 큰 이유는 전에 사용자 분이 기존의 연결 선들을 굵은 선으로 바꿔 버려서, 선 색도 알 수가 없고, 그걸 일일이 더듬어 다시 배치해 연결하기가 귀찮았습니다. 두번 째는 k40 whisperer 프로그램에 익숙해 져서 굳이 바꿔야 할 필요성을 못 느껴서 그렇습니다. 제 목표는 CO2의 자작이었기에, 다시 건들어 봤습니다. 이 기록이 도움이 되기를 바랍니다. 
 
-
-</div>
- 
-<div class="img_row">
-<img class="col one" src="{{ site.baseurl }} /img/portfolio/end05/5.jpg" alt="" title="example image"/>
-<img class="col one" src="{{ site.baseurl }} /img/portfolio/end05/6.jpg" alt="" title="example image"/>
-<img class="col one" src="{{ site.baseurl }} /img/portfolio/end05/9.jpg" alt="" title="example image"/>
-
-
-</div>
- 
-<div class="img_row">
-<img class="col one" src="{{ site.baseurl }} /img/portfolio/end05/10.jpg" alt="" title="example image"/>
-<img class="col one" src="{{ site.baseurl }} /img/portfolio/end05/11.png" alt="" title="example image"/>
-<img class="col one" src="{{ site.baseurl }} /img/portfolio/end05/12.jpg" alt="" title="example image"/>
-
-
-</div>
- 
-<div class="img_row">
-<img class="col one" src="{{ site.baseurl }} /img/portfolio/end05/13.jpg" alt="" title="example image"/>
-<img class="col one" src="{{ site.baseurl }} /img/portfolio/end05/14.jpg" alt="" title="example image"/>
-<img class="col one" src="{{ site.baseurl }} /img/portfolio/end05/15.jpg" alt="" title="example image"/>
-
-</div>
-----
-<br/>
