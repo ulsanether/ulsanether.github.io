@@ -5,7 +5,7 @@ permalink: /photoportfolio/
 ---
 
 
-{% for image in site.static_files %}
+{% for image in site.static_files reversed%}
 <!--
     {% if image.path contains 'photoportfolio' %}
 
