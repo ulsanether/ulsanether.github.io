@@ -26,8 +26,10 @@ slic3r 1.42버전은 공식 지원, 그 전 버전은
 C:\Program Files\Prusa3D\Slic3rPE\resources\localization\ko_KR 폴더에 파일을 넣고 언어 설정에서 한국어로 바꿔줘야 한다. 
 
 <div class="img_row">
-	<img class="col two" src="{{ site.baseurl }} /img/portfolio/end04/1.png" alt="" title="example image"/>
+	<img class="col one" src="{{ site.baseurl }} /img/portfolio/end04/1.png" alt="" title="example image"/>
 </div>
+
+<br/><br/><br/>
 
 
 <div class="img_row">
