@@ -1,21 +1,22 @@
 ---
 layout: post
-title: 09년 2월
+title: 09년 4월
 date: 2009-03-4 1:53:00
 ---
 
 
 11. 무어의 마지막 한숨
-사진 설명을 입력하세요.
+<div class="img_row">
+<img class="col one" src="{{ site.baseurl }} /img/book/1.jpg" alt="" title="example image"/>
+</div>	
 
 살만 루시디
 문학세계사<세계현대작가선>
 
 한 줄 평: 보류
 
-<div class="img_row">
-<img class="col one" src="{{ site.baseurl }} /img/book/1.jpg" alt="" title="example image"/>
-</div>	
+
+
 
 12. 콜렉터
 
