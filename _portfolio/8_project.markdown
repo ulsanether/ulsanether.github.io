@@ -12,11 +12,19 @@ img: /img/portfolio/end08/1.jpg
 
 자세한 제작글은 네이버블로그에 적어 놨다 .
 
+
 ​<파일링크>
 
+
 [Ender_3_Assembly v36.f3d](../../img/portfolio/end08/Ender_3_Assembly v36.f3d)
+
+<br/>
 [PrusaSlicer_config_bundle.ini](../../img/portfolio/end08/PrusaSlicer_config_bundle.ini)
+
+<br/>
 [Untitled v15.stl](../../img/portfolio/end08/Untitled v15.stl)
+
+
 
 <br/>
 
