@@ -6,7 +6,9 @@ img: /img/portfolio/end05/1.jpg
 
 ---
 
- # 2018. 7. 21. 2:19
+
+
+# 2018. 7. 21. 2:19
 
 
 STL 출력 파일과 설명, 
@@ -50,16 +52,16 @@ https://drive.google.com/file/d/1eZ83m4iNKAuGIzK7fxnhZZi33JZ9-gCk/view?usp=shari
 <img class="col one" src="{{ site.baseurl }} /img/portfolio/end05/2.jpg" alt="" title="example image"/>
 <img class="col one" src="{{ site.baseurl }} /img/portfolio/end05/3.jpg" alt="" title="example image"/>
 <img class="col one" src="{{ site.baseurl }} /img/portfolio/end05/4.jpg" alt="" title="example image"/>
-
-		
 </div>
-   ---
 
- https://cafe.naver.com/woodworker/365186
-<div class="col three caption">
-동작 영상
 
-   ---
+
+	---
+
+    https://cafe.naver.com/woodworker/365186
+    동작 영상
+
+	---
 
 
 <br/>
