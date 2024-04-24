@@ -97,7 +97,7 @@ img: /img/portfolio/end08/1.jpg
 <div class="img_row">
 <img class="col one" src="{{ site.baseurl }} /img/portfolio/end08/13.jpg" alt="" title="example image"/>
 <img class="col one" src="{{ site.baseurl }} /img/portfolio/end08/14.jpg" alt="" title="example image"/>
-<img class="col one" src="{{ site.baseurl }} /img/portfolio/end08/15.jpg" alt="" title="example image"/>
+<img class="col one" src="{{ site.baseurl }} /img/portfolio/end08/15.png" alt="" title="example image"/>
 		
 </div>
 
