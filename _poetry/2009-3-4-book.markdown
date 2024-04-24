@@ -13,6 +13,9 @@ date: 2009-03-4 1:53:00
 
 한 줄 평: 보류
 
+<div class="img_row">
+<img class="col one" src="{{ site.baseurl }} /img/book/1.jpg" alt="" title="example image"/>
+</div>	
 
 12. 콜렉터
 
