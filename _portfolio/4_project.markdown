@@ -6,10 +6,12 @@ img: /img/portfolio/end04/1.jpg
 ---
 
 
-## 2019. 2. 28. 3:04
+# 2019. 2. 28. 3:04
+
+</br>
 
 
-#### 2.xx 버전까지 하다가 힘들어서 이제는 중단한 한글화 작업이다. 
+2.xx 버전까지 하다가 힘들어서 이제는 중단한 한글화 작업이다. 
 
 
 
@@ -61,7 +63,7 @@ https://www.prusa3d.com/drivers/
 
 ​
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/5.jpg" alt="" title="example image"/>
+<img class="col one" src="{{ site.baseurl }} /img/portfolio/end04/5.jpg" alt="" title="example image"/>
 </div>
 
 전체 다운을 받아 내부의 ko_KR 폴더만 C:\Program Files\Prusa3D\Slic3rPE\resources\localization 폴더로 복사 합니다.
