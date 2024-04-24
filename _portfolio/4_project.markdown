@@ -55,7 +55,7 @@ https://www.prusa3d.com/drivers/
 
 한글화 파일을 받을수 있는 깃허브 페이지
 
-https://github.com/ulsanether/Slic3rkorean
+[깃허브] https://github.com/ulsanether/Slic3rkorean
 
 ​들어 가신후 초록색 다운로드 버튼을 누르시면 됩니다.
 

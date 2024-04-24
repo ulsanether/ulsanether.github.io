@@ -2,7 +2,7 @@
 layout: post
 title: 평발 깔창
 description: 딸아이를 위한 평발 깔창.  
-img: /img/portfolio/end03/2_(1).png
+img: /img/portfolio/end03/2_(1).jpg
 ---
 
 
