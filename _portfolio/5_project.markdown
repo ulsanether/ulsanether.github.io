@@ -64,6 +64,8 @@ https://drive.google.com/file/d/1eZ83m4iNKAuGIzK7fxnhZZi33JZ9-gCk/view?usp=shari
 
 마무리 정리 
 
+<br/>
+
 1. 전체 예산은 33만원 정도 입니다. 부품 구매에 노하우가 있다면 30만원 안쪽으로도 가능합니다. 
 
 2. 3D프린터가 기본으로 있어야 하며, PETG로 출력하기를 권장합니다. 
