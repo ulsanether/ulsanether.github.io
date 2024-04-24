@@ -226,13 +226,3 @@ co2용 cnc쉴드와 옥토프린터를 시험해 봤다. 간단한 테스트만 
 </div>
 ----
 <br/>
-
-# 나머지 기록 링크 
-
-https://blog.naver.com/hangmini12/221321429600
-
-https://blog.naver.com/hangmini12/221321132828
-
-https://blog.naver.com/hangmini12/221310086811
-
-https://blog.naver.com/hangmini12/221306230471

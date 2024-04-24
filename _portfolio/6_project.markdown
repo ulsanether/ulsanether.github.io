@@ -19,7 +19,7 @@ STL 출력 파일과 설명,
 최소한의 지식으로도 위 파일만으로 만들수 있게 설명을 하려 했으나
  부족함이 있을수가 있습니다.
 
-https://drive.google.com/file/d/1eZ83m4iNKAuGIzK7fxnhZZi33JZ9-gCk/view?usp=sharing
+[구글링크] https://drive.google.com/file/d/1eZ83m4iNKAuGIzK7fxnhZZi33JZ9-gCk/view?usp=sharing
 
 
 
@@ -32,9 +32,7 @@ https://drive.google.com/file/d/1eZ83m4iNKAuGIzK7fxnhZZi33JZ9-gCk/view?usp=shari
 <img class="col two" src="{{ site.baseurl }} /img/portfolio/end05/1.jpg" alt="" title="example image"/>
 
 		
-<img class="col one" src="{{ site.baseurl }} /img/portfolio/end05/Capture.jpg" alt="" title="example image"/>
-
-		
+<img class="col one" src="{{ site.baseurl }} /img/portfolio/end05/Capture.jpg" alt="" title="example image"/>	
 </div>
 
 <br/>
@@ -64,7 +62,6 @@ https://drive.google.com/file/d/1eZ83m4iNKAuGIzK7fxnhZZi33JZ9-gCk/view?usp=shari
 	---
 
 
-<br/>
 
 
 마무리 정리 
