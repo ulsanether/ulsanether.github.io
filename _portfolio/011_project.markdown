@@ -31,7 +31,7 @@ https://blog.naver.com/hangmini12/222289868827
 <div class="img_row">
 <img class="col one" src="{{ site.baseurl }} /img/portfolio/end11/2.jpg" alt="" title="example image"/>
 <img class="col one" src="{{ site.baseurl }} /img/portfolio/end11/4.jpg" alt="" title="example image"/>
-<img class="col one" src="{{ site.baseurl }} /img/portfolio/end11/4.jpg" alt="" title="example image"/>
+<img class="col one" src="{{ site.baseurl }} /img/portfolio/end11/10.jpg" alt="" title="example image"/>
 		
 </div>
 
