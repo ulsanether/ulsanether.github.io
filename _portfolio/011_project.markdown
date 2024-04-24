@@ -18,7 +18,8 @@ img: /img/portfolio/end11/1.jpg
 
 
 작동 영상 링크 
-https://blog.naver.com/hangmini12/222289868827
+<iframe width="956" height="538" src="https://blog.naver.com/hangmini12/222289868827" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 
