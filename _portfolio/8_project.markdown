@@ -2,7 +2,7 @@
 layout: post
 title: 멀티컬러 샐랙터
 description: 하나의 익스투루더를사용하는 3d 프린터에 멀티컬러를 사용할수 있게 하는 스위치. 
-img: /img/portfolio/end08/1.png
+img: /img/portfolio/end08/1.jpg
 ---
 
 
@@ -10,11 +10,13 @@ img: /img/portfolio/end08/1.png
 
 아날로그 스위치를 이용해서 툴 체인지시, 멀티 컬러가 정확히 지정이 되지 않는다. 이것을 해결하기 위해, 프로필이 4개가 필요하다. 
 
+자세한 제작글은 네이버블로그에 적어 놨다 .
+
 ​
 <br/>
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/portfolio/end08/1.png" alt="" title="example image"/>
+	<img class="col three" src="{{ site.baseurl }}/img/portfolio/end08/1.jpg" alt="" title="example image"/>
 </div>
 
 
@@ -75,7 +77,14 @@ img: /img/portfolio/end08/1.png
 <div class="img_row">
 <img class="col one" src="{{ site.baseurl }} /img/portfolio/end08/11.jpg" alt="" title="example image"/>
 <img class="col one" src="{{ site.baseurl }} /img/portfolio/end08/12.jpg" alt="" title="example image"/>
-<img class="col one" src="{{ site.baseurl }} /img/portfolio/end08/17.jpg" alt="" title="example image"/>
+<img class="col one" src="{{ site.baseurl }} /img/portfolio/end08/9.jpg" alt="" title="example image"/>
+		
+</div>
+
+<div class="img_row">
+<img class="col one" src="{{ site.baseurl }} /img/portfolio/end08/13.jpg" alt="" title="example image"/>
+<img class="col one" src="{{ site.baseurl }} /img/portfolio/end08/14.jpg" alt="" title="example image"/>
+<img class="col one" src="{{ site.baseurl }} /img/portfolio/end08/15.jpg" alt="" title="example image"/>
 		
 </div>
 
