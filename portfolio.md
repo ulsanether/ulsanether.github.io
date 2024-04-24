@@ -4,6 +4,7 @@ title: 완료
 permalink: /portfolio/
 ---
 {% for project in site.portfolio reversed %}
+
   {% if project.redirect %}
     <div class="project">
         <div class="thumbnail">
@@ -21,6 +22,7 @@ permalink: /portfolio/
             </a>
         </div>
     </div>
+
   {% else %}
     <div class="project ">
         <div class="thumbnail">
