@@ -1,6 +1,6 @@
 ---
 layout: page
-title: photoportfolio
+title: 평면, 입체
 permalink: /photoportfolio/
 ---
 
