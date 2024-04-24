@@ -1,7 +1,7 @@
 ---
 layout: post
-title: grbl2 co2레이져
-description: grbl과 grbl2방식 레이저 커터와 옥토프린터 
+title: GRBL-LPC co2레이져
+description: grbl과 grbl-LPC방식 레이저 커터와 옥토프린터 
 img: /img/portfolio/end06/1.jpg
 
 ---
@@ -19,7 +19,7 @@ img: /img/portfolio/end06/1.jpg
 		
 </div>
 
-grbl2 방식의 co2레이저 커터이다. 
+grbl-LPC 방식의 co2레이저 커터이다. 
 
 보드는 mks sbase 1.3v 
 
