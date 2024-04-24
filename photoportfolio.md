@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 평면, 입체
+title: 평면작업
 permalink: /photoportfolio/
 ---
 
