@@ -3,7 +3,10 @@ layout: post
 title: 09년 6월
 date: 2009-06-06 21:37:00
 ---
-21. 화씨 491
+
+
+# 화씨 491
+<div class="img_row">
 <img class="col one" src="{{ site.baseurl }} /img/book/5.jpg" alt="" title="example image"/>
 </div>	
 
@@ -14,9 +17,10 @@ date: 2009-06-06 21:37:00
 
 
 
-20. 죽음의 행군
 
+# 죽음의 행군
 
+<div class="img_row">
 <img class="col one" src="{{ site.baseurl }} /img/book/6.jpg" alt="" title="example image"/>
 </div>	
 
@@ -26,7 +30,10 @@ date: 2009-06-06 21:37:00
 한 줄 평 : 고전적인 라인
 
 
-19. 트레인스포팅
+
+# 트레인스포팅
+
+<div class="img_row">
 <img class="col one" src="{{ site.baseurl }} /img/book/7.jpg" alt="" title="example image"/>
 </div>	
 어빈 웰시
