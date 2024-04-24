@@ -2,7 +2,7 @@
 layout: post
 title: 집진 센서
 description: 전류를 감지해 집진장치를 가동하는 센서
-img: /img/portfolio/end13/1.jpg
+img: /img/portfolio/end13/1.png
 
 ---
 
@@ -22,9 +22,9 @@ img: /img/portfolio/end13/1.jpg
 </div>
 
 <div class="img_row">
-<img class="col one" src="{{ site.baseurl }} /img/portfolio/end13/1.jpg" alt="" title="example image"/>
-<img class="col one" src="{{ site.baseurl }} /img/portfolio/end13/2.jpg" alt="" title="example image"/>
-<img class="col one" src="{{ site.baseurl }} /img/portfolio/end13/3.jpg" alt="" title="example image"/>
+<img class="col one" src="{{ site.baseurl }} /img/portfolio/end13/1.png" alt="" title="example image"/>
+<img class="col one" src="{{ site.baseurl }} /img/portfolio/end13/2.png" alt="" title="example image"/>
+<img class="col one" src="{{ site.baseurl }} /img/portfolio/end13/3.png" alt="" title="example image"/>
 	</div>	
 <div class="img_row">
 <img class="col one" src="{{ site.baseurl }} /img/portfolio/end13/4.jpg" alt="" title="example image"/>
