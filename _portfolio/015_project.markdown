@@ -2,7 +2,7 @@
 layout: post
 title: VS2022 주석번역
 description: 비주얼스튜디오 2022용. 주석 번역 플러그인
-img: /img/portfolio/end15/1.jpg
+img: /img/portfolio/end15/1.png
 
 ---
 
@@ -18,8 +18,8 @@ img: /img/portfolio/end15/1.jpg
 
 
 <div class="img_row">
-<img class="col two" src="{{ site.baseurl }} /img/portfolio/end14/1.jpg" alt="" title="example image"/>
-<img class="col one" src="{{ site.baseurl }} /img/portfolio/end14/2.jpg" alt="" title="example image"/>
+<img class="col two" src="{{ site.baseurl }} /img/portfolio/end14/1.png" alt="" title="example image"/>
+<img class="col one" src="{{ site.baseurl }} /img/portfolio/end14/2.png" alt="" title="example image"/>
 
 	</div>	
 
