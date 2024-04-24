@@ -1,0 +1,21 @@
+---
+layout: post
+title: 09년 8월
+date: 2009-08-14 20:02:00
+---
+
+
+# 25.나무 위의 남작
+
+
+<div class="img_row">
+<img class="col one" src="{{ site.baseurl }} /img/book/11.jpg" alt="" title="example image"/>
+</div>	
+
+ 민음사
+
+ 이탈로 칼비노
+
+ 
+
+ 한 줄 평 : 없음

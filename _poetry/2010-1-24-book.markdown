@@ -1,0 +1,21 @@
+---
+layout: post
+title: 10년 1월
+date: 2009-1-24 6:58:00
+---
+
+
+1. 야성의 소리
+   잭 런던
+
+
+ 한 줄 평 : 그냥 그저 그래. 
+
+
+1. 세상끝날때 까지 아직 10억년
+<div class="img_row">
+<img class="col one" src="{{ site.baseurl }} /img/book/12.jpg" alt="" title="example image"/>
+</div>	
+아르까지 스뜨루가츠끼,·보리스 스뜨루가츠끼
+
+한 줄 평 : 도식적인 SF보다 훨씬 내 마음에 든다.
