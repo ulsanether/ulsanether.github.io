@@ -14,12 +14,13 @@ img: /img/portfolio/end16/1.jpg
 소맥 트레이는 6t 
 
 [캠핑소맥트레이.f3d](../../img/portfolio/end16/캠핑소맥트레이.f3d)
-
-
 <div class="img_row">
 <img class="col two" src="{{ site.baseurl }} /img/portfolio/end16/1.jpg" alt="" title="example image"/>
-<img class="col one" src="{{ site.baseurl }} /img/portfolio/end16/2.jpg" alt="" title="example image"/>
-<img class="col one" src="{{ site.baseurl }} /img/portfolio/end16/3.jpg" alt="" title="example image"/>
+</div>	
+
+<div class="img_row">
+<img class="col two" src="{{ site.baseurl }} /img/portfolio/end16/2.jpg" alt="" title="example image"/>
+<img class="col two" src="{{ site.baseurl }} /img/portfolio/end16/3.jpg" alt="" title="example image"/>
 </div>	
 <div class="img_row">
 <img class="col one" src="{{ site.baseurl }} /img/portfolio/end16/4.png" alt="" title="example image"/>

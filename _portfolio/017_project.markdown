@@ -25,10 +25,10 @@ img: /img/portfolio/end17/1.jpg
 <div class="img_row">
 <img class="col two" src="{{ site.baseurl }} /img/portfolio/end17/1.jpg" alt="" title="example image"/>
 <img class="col one" src="{{ site.baseurl }} /img/portfolio/end17/2.jpg" alt="" title="example image"/>
-<img class="col one" src="{{ site.baseurl }} /img/portfolio/end17/3.jpg" alt="" title="example image"/>
+
 </div>	
 <div class="img_row">
-<img class="col one" src="{{ site.baseurl }} /img/portfolio/end17/4.png" alt="" title="example image"/>
+<img class="col one" src="{{ site.baseurl }} /img/portfolio/end17/4.jpg" alt="" title="example image"/>
 <img class="col two" src="{{ site.baseurl }} /img/portfolio/end17/5.jpg" alt="" title="example image"/>
 <img class="col one" src="{{ site.baseurl }} /img/portfolio/end17/6.png" alt="" title="example image"/>
 </div>	
@@ -54,7 +54,8 @@ img: /img/portfolio/end17/1.jpg
 
 </div>	
 <div class="img_row">
-<img class="col two" src="{{ site.baseurl }} /img/portfolio/end17/15.png" alt="" title="example image"/>
+<img class="col one" src="{{ site.baseurl }} /img/portfolio/end17/3.jpg" alt="" title="example image"/>
+<img class="col one" src="{{ site.baseurl }} /img/portfolio/end17/15.png" alt="" title="example image"/>
 <img class="col one" src="{{ site.baseurl }} /img/portfolio/end17/16.jpg" alt="" title="example image"/>
 
 </div>	
