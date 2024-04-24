@@ -58,6 +58,9 @@ https://drive.google.com/file/d/1eZ83m4iNKAuGIzK7fxnhZZi33JZ9-gCk/view?usp=shari
 동작 영상
 
 
+<br/>
+
+
 마무리 정리 
 
 1. 전체 예산은 33만원 정도 입니다. 부품 구매에 노하우가 있다면 30만원 안쪽으로도 가능합니다. 
@@ -73,6 +76,8 @@ https://drive.google.com/file/d/1eZ83m4iNKAuGIzK7fxnhZZi33JZ9-gCk/view?usp=shari
 
 감사합니다. 
 
+
+<br/>
 
 
 # 2018. 7. 18. 13:22
