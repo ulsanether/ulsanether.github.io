@@ -1,16 +1,15 @@
 ---
 layout: post
-title: Prusa 슬라이서 한글화
-description: 3d프린터 프루사 슬라이서 공식한글화 작업. 
+title: slic3r 1.42 슬라이서 한글화
+description: 3d프린터 slic3r 1.42 작업. 
 img: /img/portfolio/end04/1.jpg
 ---
 
 
 # 2019. 2. 28. 3:04
 
-
-
-2.xx 버전까지 하다가 힘들어서 이제는 중단한 한글화 작업이다. 
+slic3r라고 프루사 슬라이서의 전신이 되는 슬라이서 한글화 
+작업이다. 
 
 
 
