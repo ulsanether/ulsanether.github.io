@@ -17,7 +17,7 @@ date: 2009-04-12 9:44:00
 15. 픽션들
 
 <div class="img_row">
-<img class="col one" src="{{ site.baseurl }} /img/book/3.jpg" alt="" title="example image"/>
+<img class="col one" src="{{ site.baseurl }} /img/book/2.jpg" alt="" title="example image"/>
 </div>	
 
 
@@ -29,7 +29,7 @@ date: 2009-04-12 9:44:00
 14. 요리장이 너무 많다. (원제 too many cooks)
 
 <div class="img_row">
-<img class="col one" src="{{ site.baseurl }} /img/book/4.jpg" alt="" title="example image"/>
+<img class="col one" src="{{ site.baseurl }} /img/book/3.jpg" alt="" title="example image"/>
 </div>	
 
 

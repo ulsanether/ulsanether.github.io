@@ -1,0 +1,36 @@
+---
+layout: post
+title: 09년 6월
+date: 2009-06-06 21:37:00
+---
+21. 화씨 491
+<img class="col one" src="{{ site.baseurl }} /img/book/5.jpg" alt="" title="example image"/>
+</div>	
+
+레이 브레드버리
+황금가지(환상문학전집)
+
+한 줄 평 : 오! 이것은 황금이다. 사파이어다.
+
+
+
+20. 죽음의 행군
+
+
+<img class="col one" src="{{ site.baseurl }} /img/book/6.jpg" alt="" title="example image"/>
+</div>	
+
+장 클로드 갈
+문한동네
+
+한 줄 평 : 고전적인 라인
+
+
+19. 트레인스포팅
+<img class="col one" src="{{ site.baseurl }} /img/book/7.jpg" alt="" title="example image"/>
+</div>	
+어빈 웰시
+문학사상사
+
+한 줄 평: 감동을 주진 않는다.
+
