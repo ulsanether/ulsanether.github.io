@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /poetry/
-title: poetry
-description: Showcase your writing, short stories, or poems. Replace this text with your description.
+title: 책들
+description: 책에 대한 것들
 ---
 
 <ul class="post-list">

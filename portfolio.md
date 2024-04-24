@@ -2,6 +2,7 @@
 layout: page
 title: 완료
 permalink: /portfolio/
+description: 더 이상 제작하지 않고, 완성이 되었고, 완료가 되었다고 생각하는 것들. 
 ---
 
 {% for project in site.portfolio reversed%}
