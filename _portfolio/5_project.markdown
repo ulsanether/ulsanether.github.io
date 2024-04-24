@@ -2,7 +2,8 @@
 layout: post
 title: MPCNC 제작
 description: 저가영 파이프 CNC제작
-img: /img/portfolio/end05/1.JPG
+img: /img/portfolio/end05/1.jpg
+
 ---
 
  # 2018. 7. 21. 2:19
