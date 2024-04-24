@@ -9,11 +9,15 @@ img: /img/portfolio/end16/1.jpg
 
 # 2020. 3. 23. 16:26
 
+  <hr>
 
 캠핑에서 분해 조립이 가능하게 만들어 져 있다.
 소맥 트레이는 6t 
 
 [캠핑소맥트레이.f3d](../../img/portfolio/end16/캠핑소맥트레이.f3d)
+
+  <hr>
+  
 <div class="img_row">
 <img class="col two" src="{{ site.baseurl }} /img/portfolio/end16/1.jpg" alt="" title="example image"/>
 </div>	
