@@ -112,11 +112,44 @@ IC주변에 주렁 주렁 달린 커페시터는 바이패스용 커패시터.
 ​<div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_013.png
 	" alt="" title="인덕터"/>
-	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_013.JPG
+	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_013.jpg
+	" alt="" title="인덕터"/>
+</div>
+기호가 맥류 신호와 비슷하다. AC신호는 사라지고 DC신호만 남는는 필터 역활을 한다. 
+DC신호는 저주파, AC는 고주파이다. 인덕터는 저주파를 통과시키는 역활을 한다.  
+
+코일이라고 불리면 전류의 변화를 이용하여 전압 변화를 유도. 전류에 저항하여 준류의 급격한 변화를 막아준다. 
+
+[인덕터의 역활]
+필터 : 고주파 노이즈 제거 
+인덕턴스가 크다면 AC신호를 통과시키지 않음. 
+
+​<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_014.jpg
+	" alt="" title="인덕터"/>
+</div>
+이 이미지는 신호는 인덕터를 지나 AC신호를 제거해주고, 하지만 모든 고주파신호를 제거를 못해줘서 남은 신호는 
+캐페시터에서 바이패스로 걸러주고 GND로 가게 구성되어 있다. 이렇게 많이 쓴다. 
+
+
+[인덕터의 동작 원리]
+
+패러데이의 법칙 : 
+
+​<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_014.png
 	" alt="" title="인덕터"/>
 </div>
 
-코일이라고 불리면 전류의 변화를 이용하여 전압 변화를 유도. 전류에 저항하여 준류의 급격한 변화를 막아준다 .
+
+렌쯔의 법칙 : 
+
+​<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_015.png
+	" alt="" title="인덕터"/>
+</div>
 
 
+익덕터는 직렬 연결 할때 저항과 같이 L = L1 + L2
 
+병렬 연결일때 1/L = 1/L1 + 1/L2 이다. 
