@@ -36,6 +36,9 @@ categories: 회로기초 정리 하는것.
 	" alt="" title="커페시터"/>
 </div>
 
+원래의 dc에 저주파 잡음이 있다. dc가 흔들리게 되는데, 커패시터는 고주파만 통과시키는 특징이 있기에, 바이패스로 저주파를 버리고
+고주파만 통과 시켜 안정시킨다. 
+
 ​<div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_08.jpg
 	" alt="" title="바이패스"/>
