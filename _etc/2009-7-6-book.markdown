@@ -1,0 +1,39 @@
+---
+layout: post
+title: 09년 7월
+date: 2009-07-07 21:35:00
+---
+
+
+24. 시간 여행자의 사랑
+<div class="img_row">
+<img class="col one" src="{{ site.baseurl }} /img/book/8.jpg" alt="" title="example image"/>
+</div>	
+
+노블 마인
+
+리차드 메드슨
+
+한 줄 평 : 흥미롭지만, 시간 여행자의 아내 보다 낫진 않다.
+
+
+23. 마르셀 뒤샹 (피에르 카반느와의 대담)
+<div class="img_row">
+<img class="col one" src="{{ site.baseurl }} /img/book/9.png" alt="" title="example image"/>
+</div>	
+
+이화여자대학교출판부
+
+피에르 카반느
+
+한 줄 평 : 시니컬한, 유연하지 못 한 사고의 결실
+
+22. 밝은 방(카메라 루시다)
+<div class="img_row">
+<img class="col one" src="{{ site.baseurl }} /img/book/10.jpg" alt="" title="example image"/>
+</div>	
+
+롤랑 바르트
+동문선
+
+한 줄 평:새로운 개념과 새로운 언어, 시야를 넓혀주는 양서에 충실한

@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /etc/
-title: 그나머지
-description: 그 나머지
+permalink: /poetry/
+title: 책들
+description: 책에 대한 것들
 ---
 
 <ul class="post-list">

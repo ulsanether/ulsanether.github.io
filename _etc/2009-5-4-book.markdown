@@ -1,0 +1,26 @@
+---
+layout: post
+title: 09년 5월
+date: 2009-05-04 0:34:00
+---
+
+18. 브라이튼 해변의 추억
+
+닐 사이먼
+포도원 희곡 선집
+
+한 줄 평 : 닐 사이먼이다. 생명을 연장해 주는 양식.
+
+
+17. 책상은 책상이다.
+
+<div class="img_row">
+<img class="col one" src="{{ site.baseurl }} /img/book/4.jpg" alt="" title="example image"/>
+</div>	
+
+페터 빅셀
+문장
+
+한 줄 평 : 몇 편은 유쾌하고, 몇 편은 당차며, 몇 편은 밋밋하다.
+
+
