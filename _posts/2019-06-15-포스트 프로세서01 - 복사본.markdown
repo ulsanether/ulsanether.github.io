@@ -1,27 +1,78 @@
 ---
 layout: post
-title: 포스트 프로세서
-date: 2019-06-15 12:54:00
-description: 포스트 프로세서
+title: "포스트 프로세서 베이직"
+date: 2019-07-9 1:17:00
+description: 포스트 프로세서 베이직
 ---
+안타깝게도 시장엔 한글로된 포스트 프로세서에 대한 교재는 존재하지 않는것 같다. 어쨌거나 나는 필요하기에, 배우려 한다. 필요 하다는 말은 어페가 있다. 그냥 이것은 어떤 집착과 연관이 있는것 같다. 예를 들자면 꿀벌에 뭍어있는 꽃가루 정도의 필요함, 나는 그 정도에 너무나 많은 신경을 쓰는것 같다. 하다 지루하면 멈출 것이다.
+나는 전공자도 아니고, 관련 자도 아니고, 직업도 아니고, 연관자도 아니다. 어쨌거나 그냥 배우려 하기에 배운다. 대부분은 오토 캐드사에 나오는 포스트 프로세서 가이드를 보고 익힌다. 그 외에 유튜브 동영상이나 많은 게시 글이 있지만 거의 대부분 개뿔도 이해 못한다.
+앞서 설명했듯이 나는 어디에도 속해 있지 않다. 이 글을 작성하면서 배울수 있기에 할 뿐이다.
 
-도서관에 가도 관련 자료가 없는것 같고, 서적도 없는것 같다. 제조사에서 만들어 지는 것을 쓰는지, 아니면 포스트 프로세서는 프로그램마나 다른 언어의 형식을 하는지 잘 모르겠다. 일단 또, 자바를 알아야 한다. ;;
-자바를 떠나서 몇가지 문제점은 포스트 프로세서에서 어디까지 지원 가능하고 어디까지 응용 가능하냐 이다. laser 와 cnc 의 자유로운 연동이 가능한지 아니면 각각의 다른 데이터를 만들어야 하는지 알아야 한다.
 
-https://youtu.be/5EodQIY25tU
 
-오토 데스크에 포스트 프로세서 트레이닝 가이드를 문서화 해서 발행 했다.
-https://cam.autodesk.com/posts/reference/?_ga=2.185466793.1058064250.1560568636-120466188.1551362609
 
+포스트 프로세서는
+
+이 범위가 어디까지인지 모르지만, 기계와 컴파일된 g코드를 연결하는 가교와 같다. 잘 만들면 마차도 지나갈 수 있는 가교를 만들수 있지만 단순하게 만들면 사람만 건널수 있는 징검다리 정도 밖에 안되기도 한다.
+사진 설명을 입력하세요.
+어쨌거나 이 징검다리는 대부분 제조사 측에서 만들어 주거나 어떤 실력있는 코더나 프로세서 작성자가 만들기도 하는것 같다. 퓨전에 쓰이는 포스트 프로세서는 퓨전360 포스트 프로세서 라이브러리에 찾을수 있으니 이런 바보같은 짓은 하지 말아야 한다.
+
+
+https://cam.autodesk.com/hsmposts?
+Manual Post Library for Fusion 360 and Autodesk HSM This is the place to find post processors for common CNC machines and controls. Make sure to read this important safety information before using any posts.
 cam.autodesk.com
+그 외에 HSM 포스트 프로세서 포럼이나 HSM 포스트 프로세서 아이디어 에서
 
-https://knowledge.autodesk.com/ko/support/hsm/troubleshooting/caas/sfdcarticles/sfdcarticles/KOR/Learning-resources-for-post-processor-edits-in-Fusion-360-HSM-CAM.html
+https://forums.autodesk.com/t5/hsm-post-processor-forum/bd-p/218
 
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/post/01_postpro_01.png
-	" alt="" title="example image"/>
-</div>
+forums.autodesk.com
+https://forums.autodesk.com/t5/hsm-post-processor-ideas/idb-p/985/tab/most-recent
+Share ideas for future product features directly with the HSM Post Processor team and collaborate on existing suggestions with your peers.
+forums.autodesk.com
+포스트 프로세서를 작성하기 위해서는 노트패드를 이용하기도 하는데, 프스트 프로세스 트레이닝 가이드에서는 비주얼 스튜디오 코드(Visual Studio Code)와 퓨전 애드온 설치를 권장하라고 한다. 이것이 가장 좋은 방법이지만 노트패드와 혼용을 하는것이 더 낫다. 포스트 프로세서를 쓴다고 하면 이미 어떻게 쓰는지는 다 알테니 그것은 패스 하는것이 좋을것 같다. 필요로하는 딱 맞는 포스트 프로세서가 존재하지 않는다면 이것을 필요로 하지만, 시장엔 대부분의 포스트 프로세서가 존재한다. 그것이 존재하지 않는 아주 극소수만 이 글이 필요로 하다.
+
+필요로 하는 것은 몇가지 있다.
+1. 최초의 기본이 되는 시드 포스트 프로세서. 내가 쓰는 보드는 랩랩 펌웨어를 쓰는 보드이기에 기본이 되는 랩랩 포스트 프로세서가 필요로 하다. 그것은 포스트 프로세서 라이드러리에서 다운받을수 있다.
+2. 덤프될 NC코드, 샘플이 될 NC 파일
+3. 기계 제어 방식 종류와 모델
+4. 시스템 구성
+6. 프로그래밍, 머신 제어 메뉴얼
+
+포스트 프로세스 테스트를 위한 벤치 마크 부품이 있다. 이것은 시험 가동을 위한 표준이되는 파일이라고 볼 수 있다.
 
 
-문제: Fusion 360 또는 HSM CAM과 함께 사용할 사후 프로세서를 편집하거나 사용자 정의 할 때 리소스를 찾고 있습니다. 원인: 포스트 사용자 정의 요청은 오토 데스크에서 지원하지 않지만 모든 HSM 및 Fusion 360 포스트 프로세서는 오픈 소스이며 자유롭게 다운로드하고 편집 할 수 있습니다. 해결 방법: 다음 리소스는 자바 스크립트 및 포스트 프로세서 편집에 대해 학습 할 때 유용합니다. Autodesk CAM 포스트 프로세서 문서 HSM 포스트 프로세서 포럼 오토 데스크 포스트 라이브러리 Autodesk CAM ...
-knowledge.autodesk.com
+사진 설명을 입력하세요.
+이러한 것은 알아서 찾거나 트레이닝 가이드를 참조로 하자. 비주얼 스튜디오 코드와 퓨전360 포스트 프로세서 유틸리티를 설치를 한다. 그리고 시드가 되는 포스트 프로세서를 다운받아 열어 본다.
+
+랩랩 포스트 프로세서
+사진 설명을 입력하세요.
+퓨전 360 포스트 프로세서 유틸리티 링크. 비주얼 스튜디오 프로그램 상에서 다운받아 설치 할 수 있어 이 링크는 불필요하다.
+https://marketplace.visualstudio.com/items?itemName=Autodesk.hsm-post-processor
+Overview Q & A Rating & Review Autodesk Fusion 360 Post Editor for Visual Studio Code Welcome to the Autodesk Fusion 360 post editing extension for Visual Studio Code ( https://code.visualstudio.com/ ). This extension adds several functions that will aid you when working on post development specific...
+marketplace.visualstudio.com
+
+
+랩랩 포스트 프로세서를 다운받아 실행한 모습.
+사진 설명을 입력하세요.
+
+
+포스트 프로세서에 대한 설정 들.
+
+사진 설명을 입력하세요.
+사진 설명을 입력하세요.
+몇개 체크할 부분있지만 이것은 편의성과 관계 된 것이다. 컬러와 자동 업데이트, 정렬에 관련된 것이다.
+
+
+익스플로러 그리고 나머지는 검색과 확장, 북마크와 관련된 옵션이다.
+사진 설명을 입력하세요.
+사진 설명을 입력하세요.
+
+위에서 부터
+open editors :열려 있는 파일을 표시
+no folders open : 프로세서의 폴더의 표시로, 프로세서 묶음을 열거나 확인
+outline : 쓰여진 변수를 표시한다. 클릭하면 변수가 쓰여딘 곳을 확인할 수가 있다.
+cnc selector : 디버깅 하게 되면 파일을 확인 할 수가 있는데, g코드로 표시 되기도 하고, 덤프된 파일로 표시 되기도 한다. 포스트 실행을 위해 퓨전과 연결 시켜 줘야 한다.
+function list : 포스트 프로세서에서 작성된 기능들의 링크이다. 누르면 기능들의 코드를 확인할수가 있다.
+post properties : 포스트 프로세서의 스위칭 옵션에 대한 항목이다.
+variable list : 포스트 프로세서에서 지원되는 변수에 대한 항목이다.
+
