@@ -9,13 +9,23 @@ description: 포스트 프로세서 베이직
 앞서 설명했듯이 나는 어디에도 속해 있지 않다. 이 글을 작성하면서 배울수 있기에 할 뿐이다.
 
 
-
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/post/01_postpro/postpro_02.png
+	" alt="" title="example image"/>
+</div>
 
 포스트 프로세서는
 
 이 범위가 어디까지인지 모르지만, 기계와 컴파일된 g코드를 연결하는 가교와 같다. 잘 만들면 마차도 지나갈 수 있는 가교를 만들수 있지만 단순하게 만들면 사람만 건널수 있는 징검다리 정도 밖에 안되기도 한다.
 사진 설명을 입력하세요.
 어쨌거나 이 징검다리는 대부분 제조사 측에서 만들어 주거나 어떤 실력있는 코더나 프로세서 작성자가 만들기도 하는것 같다. 퓨전에 쓰이는 포스트 프로세서는 퓨전360 포스트 프로세서 라이브러리에 찾을수 있으니 이런 바보같은 짓은 하지 말아야 한다.
+
+
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/post/01_postpro/postpro_03.png
+	" alt="" title="example image"/>
+</div>
 
 
 https://cam.autodesk.com/hsmposts?
@@ -41,11 +51,27 @@ forums.autodesk.com
 포스트 프로세스 테스트를 위한 벤치 마크 부품이 있다. 이것은 시험 가동을 위한 표준이되는 파일이라고 볼 수 있다.
 
 
-사진 설명을 입력하세요.
+
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/post/01_postpro/postpro_04.png
+	" alt="" title="example image"/>
+</div>
+
+
 이러한 것은 알아서 찾거나 트레이닝 가이드를 참조로 하자. 비주얼 스튜디오 코드와 퓨전360 포스트 프로세서 유틸리티를 설치를 한다. 그리고 시드가 되는 포스트 프로세서를 다운받아 열어 본다.
 
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/post/01_postpro/postpro_05.png
+	" alt="" title="example image"/>
+</div>
+
+
+
+
 랩랩 포스트 프로세서
-사진 설명을 입력하세요.
+
 퓨전 360 포스트 프로세서 유틸리티 링크. 비주얼 스튜디오 프로그램 상에서 다운받아 설치 할 수 있어 이 링크는 불필요하다.
 https://marketplace.visualstudio.com/items?itemName=Autodesk.hsm-post-processor
 Overview Q & A Rating & Review Autodesk Fusion 360 Post Editor for Visual Studio Code Welcome to the Autodesk Fusion 360 post editing extension for Visual Studio Code ( https://code.visualstudio.com/ ). This extension adds several functions that will aid you when working on post development specific...
@@ -53,19 +79,42 @@ marketplace.visualstudio.com
 
 
 랩랩 포스트 프로세서를 다운받아 실행한 모습.
-사진 설명을 입력하세요.
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/post/01_postpro/postpro_06.png
+	" alt="" title="example image"/>
+</div>
+
 
 
 포스트 프로세서에 대한 설정 들.
 
-사진 설명을 입력하세요.
-사진 설명을 입력하세요.
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/post/01_postpro/postpro_07.png
+	" alt="" title="example image"/>
+</div>
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/post/01_postpro/postpro_08.png
+	" alt="" title="example image"/>
+</div>
+
 몇개 체크할 부분있지만 이것은 편의성과 관계 된 것이다. 컬러와 자동 업데이트, 정렬에 관련된 것이다.
 
 
 익스플로러 그리고 나머지는 검색과 확장, 북마크와 관련된 옵션이다.
-사진 설명을 입력하세요.
-사진 설명을 입력하세요.
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/post/01_postpro/postpro_09.png
+	" alt="" title="example image"/>
+</div>
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/post/01_postpro/postpro_010.png
+	" alt="" title="example image"/>
+</div>
+
 
 위에서 부터
 open editors :열려 있는 파일을 표시
