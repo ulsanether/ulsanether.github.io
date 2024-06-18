@@ -18,7 +18,7 @@ cam.autodesk.com
 https://knowledge.autodesk.com/ko/support/hsm/troubleshooting/caas/sfdcarticles/sfdcarticles/KOR/Learning-resources-for-post-processor-edits-in-Fusion-360-HSM-CAM.html
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/post/01_postpro_01.png
+	<img class="col three" src="{{ site.baseurl }}/img/post/01_postpro/postpro_01.png
 	" alt="" title="example image"/>
 </div>
 
