@@ -2,7 +2,7 @@
 layout: post
 title:  "회로기초02"
 date:   2024-06-18 16:50:15 +0900
-categories: 회로기초 정리 하는것. 
+categories: 회로기초 강좌 정리 하는것. 
 ---
 
 [커페시터] 에너지를 전압의 형태로 저장하는 역활
@@ -36,22 +36,87 @@ categories: 회로기초 정리 하는것.
 	" alt="" title="커페시터"/>
 </div>
 
-원래의 dc에 저주파 잡음이 있다. dc가 흔들리게 되는데, 커패시터는 고주파만 통과시키는 특징이 있기에, 바이패스로 저주파를 버리고
-고주파만 통과 시켜 안정시킨다. 
+원래의 dc에 저주파 잡음이 있다. dc가 흔들리게 되는데, 커패시터는 고주파만 통과시키는 특징이 있기에, 
+바이패스로 저주파를 버리고 고주파만 통과 시켜 안정시킨다. 
 
 ​<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_08.jpg
+	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_08.png
 	" alt="" title="바이패스"/>
 </div>
 
 ​<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_09.jpg
+	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_09.png
 	" alt="" title="바이패스"/>
 </div>
 
 
 바이패스 커패시터는 노이즈 성분을 그라운드로 흘리거나 특정 주파수만 다음 블록으로 흘러주는 역활. 노이즈 제거, 잡음 제거. 
 IC주변에 주렁 주렁 달린 커페시터는 바이패스용 커패시터. 
-디커플링 커페시터를 가끔 바이패스 커패시터라고도 한다. 
+디커플링 커페시터를 가끔 바이패스 커패시터라고도 하는데, 디커플링은 노이즈를 분리해주는 역활을 한다. 바이패스는 안정된 직류만
+통과 시키는 역활을 한다. 
+커플링과 디커플링은 rf같은 무선 회로에 쓰이게 된다. 일반 회로에서는 바이패스를 주로 사용한다. 
+
+​<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_010.png
+	" alt="" title="맥류"/>
+</div>
+
+
+[평활]
+
+​<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_010.jpg
+	" alt="" title="맥류"/>
+</div>
+오른쪽 위 그래프의 교류 신호가 정류 회로를 거치면, 오른쪽 아래의 직류(맥류) 신호로 되고, 평활을 거치면 맥류가 사라진 웨이브가 없는 일정한 직류 신호로 된다. 
+
+
+맥류(주기적으로 오르락 내리락 하는 전류.) 신호를 일정 직류 신호로 보내기 위한 회로에 쓰임. 평활회로는 
+높은 전압은 낮추고 낮은 전압은 높여 일정한 전압을 유지하게 한다. 커페시터가 충방전을 반복해 전압의 변동을 줄이는것이다. 
+
+
+[커페시터의 직렬과 병렬 구성]
+​<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_011.png
+	" alt="" title="맥류"/>
+</div>
+
+
+
+[커페시터의 종류]
+'주파수 동작 범위에 따른 커패시터'
+​<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_011.jpg
+	" alt="" title="맥류"/>
+</div>
+
+'커패시터 용량에 따른 종류'
+​<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_012.png
+	" alt="" title="맥류"/>
+</div>
+
+전해 커패시터 : 고주파에서는 쓰이기 어렵지만 용량이 많다. 주로 전원이 평활회로, 저주파 바이패스 등에 사용. 주파수 특성이 나쁘다는 단점. 코일 성분이 많아서 고주파에 적합하지 않다. 
+탄탈륨 커패시터 : 비교적 큰 용량을 쓸수 있다. 온도 특성과 주파수 특성이 전해보다는 우수하다. 
+전해와 탄탈과 비슷한 조건에는 전해보다는 탄탈을 쓴다. 크기적으로 유리하고 주파수 동작범위에서 유리하다. 온도 특성도 좋다. 피크 용량이 많을때는 전해를 쓰는게 좋다. 저전압은 탄탈을 쓰는게 좋다. 
+
+세라믹 커패시터 : 용량은 적다. 인덕턴스(코일 성질)가 적어서 고주파 특성이 양호하다. 고주파 바이패스에 사용한다. +- 특성이 없어서 그냥 연결한다. 
+
+적측 세라믹 커패시터 :MLCC라고 한다. 세라믹을 다층으로 적층한 구조. 온도특성 주파스 특성이 양호하고, 사형이라는 가장 큰 장접. MURATA의 세라믹 커패시터가 가장 많이 사용. 
+
+
+
+
+[인덕터]
+
+​<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_013.png
+	" alt="" title="인덕터"/>
+	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_013.JPG
+	" alt="" title="인덕터"/>
+</div>
+
+코일이라고 불리면 전류의 변화를 이용하여 전압 변화를 유도. 전류에 저항하여 준류의 급격한 변화를 막아준다 .
+
 
 
