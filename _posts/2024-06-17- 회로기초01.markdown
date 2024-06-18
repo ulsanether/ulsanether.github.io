@@ -30,7 +30,7 @@ https://www.digikey.kr/ko/resources/conversion-calculators/conversion-calculator
 
 저항은 옴의 법칙에 따라 전류 제한 가능. 
 ​<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_02.png
+	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_03.png
 	" alt="" title="example image"/>
 </div>
 
