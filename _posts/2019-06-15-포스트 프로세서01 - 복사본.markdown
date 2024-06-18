@@ -1,0 +1,27 @@
+---
+layout: post
+title: 포스트 프로세서
+date: 2019-06-15 12:54:00
+description: 포스트 프로세서
+---
+
+도서관에 가도 관련 자료가 없는것 같고, 서적도 없는것 같다. 제조사에서 만들어 지는 것을 쓰는지, 아니면 포스트 프로세서는 프로그램마나 다른 언어의 형식을 하는지 잘 모르겠다. 일단 또, 자바를 알아야 한다. ;;
+자바를 떠나서 몇가지 문제점은 포스트 프로세서에서 어디까지 지원 가능하고 어디까지 응용 가능하냐 이다. laser 와 cnc 의 자유로운 연동이 가능한지 아니면 각각의 다른 데이터를 만들어야 하는지 알아야 한다.
+
+https://youtu.be/5EodQIY25tU
+
+오토 데스크에 포스트 프로세서 트레이닝 가이드를 문서화 해서 발행 했다.
+https://cam.autodesk.com/posts/reference/?_ga=2.185466793.1058064250.1560568636-120466188.1551362609
+
+cam.autodesk.com
+
+https://knowledge.autodesk.com/ko/support/hsm/troubleshooting/caas/sfdcarticles/sfdcarticles/KOR/Learning-resources-for-post-processor-edits-in-Fusion-360-HSM-CAM.html
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/post/01_postpro_01.png
+	" alt="" title="example image"/>
+</div>
+
+
+문제: Fusion 360 또는 HSM CAM과 함께 사용할 사후 프로세서를 편집하거나 사용자 정의 할 때 리소스를 찾고 있습니다. 원인: 포스트 사용자 정의 요청은 오토 데스크에서 지원하지 않지만 모든 HSM 및 Fusion 360 포스트 프로세서는 오픈 소스이며 자유롭게 다운로드하고 편집 할 수 있습니다. 해결 방법: 다음 리소스는 자바 스크립트 및 포스트 프로세서 편집에 대해 학습 할 때 유용합니다. Autodesk CAM 포스트 프로세서 문서 HSM 포스트 프로세서 포럼 오토 데스크 포스트 라이브러리 Autodesk CAM ...
+knowledge.autodesk.com
