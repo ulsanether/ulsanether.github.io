@@ -76,25 +76,24 @@ IC주변에 주렁 주렁 달린 커페시터는 바이패스용 커패시터.
 
 
 [커페시터의 직렬과 병렬 구성]
-​<div class="img_row">
+
 	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_011.png
 	" alt="" title="맥류"/>
-</div>
+
 
 
 
 [커페시터의 종류]
 '주파수 동작 범위에 따른 커패시터'
-​<div class="img_row">
+
 	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_011.jpg
 	" alt="" title="맥류"/>
-</div>
 
 '커패시터 용량에 따른 종류'
-​<div class="img_row">
+
 	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_012.png
 	" alt="" title="맥류"/>
-</div>
+
 
 전해 커패시터 : 고주파에서는 쓰이기 어렵지만 용량이 많다. 주로 전원이 평활회로, 저주파 바이패스 등에 사용. 주파수 특성이 나쁘다는 단점. 코일 성분이 많아서 고주파에 적합하지 않다. 
 탄탈륨 커패시터 : 비교적 큰 용량을 쓸수 있다. 온도 특성과 주파수 특성이 전해보다는 우수하다. 
@@ -109,12 +108,11 @@ IC주변에 주렁 주렁 달린 커페시터는 바이패스용 커패시터.
 
 [인덕터]
 
-​<div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_013.png
 	" alt="" title="인덕터"/>
 	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_013.jpg
 	" alt="" title="인덕터"/>
-</div>
+
 기호가 맥류 신호와 비슷하다. AC신호는 사라지고 DC신호만 남는는 필터 역활을 한다. 
 DC신호는 저주파, AC는 고주파이다. 인덕터는 저주파를 통과시키는 역활을 한다.  
 
@@ -138,20 +136,49 @@ DC신호는 저주파, AC는 고주파이다. 인덕터는 저주파를 통과�
 
 패러데이의 법칙 : 
 
-​<div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_014.png
 	" alt="" title="인덕터"/>
-</div>
+
 
 
 렌쯔의 법칙 : 
 
-​<div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_015.png
 	" alt="" title="인덕터"/>
-</div>
+
 
 
 익덕터는 직렬 연결 할때 저항과 같이 L = L1 + L2
 
 병렬 연결일때 1/L = 1/L1 + 1/L2 이다. 
+
+
+
+
+
+*** [레귤레이터]
+
+리니어 레귤레이터 : 입력 출력력, 피드백(출력이 가변일 경우 출력 전압의 귀한이 필요) 핀으로 구성 
+구성회로 간단, 안정성 높음, 리니어 레귤레이터는 피득백 제어시스템이기 때문에
+ 입력과 출력에 반드시 권장하는 커패시터를 달아줘야함. 요량은 각 레귤레이터의 데이터시트를 참조
+ 피드 포워드 커패시터 관련 정리 링크 
+https://www.seminet.co.kr/channel_micro.html?menu=content_sub&com_no=702&category=article&no=9121
+
+LDO 레귤레이터 : 리니어 레귤레이터의 한 종류. 낮은 입출력 준위차에도 동작하는 리니어 레귤레이터. 5V입력을 받으면 4.7V나 4.5V처럼 
+최저한의 전위차로 동작함으로 에너지 손실이 적어 발열등을 억제 하는 설계가 가능. 입력 전압 대비 출력 전압의 차가 적을때 설계. 
+
+
+스위칭 레귤레이터 : 스위치 소자의 ON/OFF를 반복을(고속 반복) 통해 출력 전압을 조절. 강압과 승압 모두 가능하며 부전압 생성도 가능. 펄스폭 제어나 인덕터나 다이오드 회로를 위해 회로 구성이 복잡. 하며 노이즈가 많은 단점이 있음. 전력 손실은 적음. 
+
+
+
+[데이터터시트 분석 및 부품 설계]
+
+
+[MIC69303YME_LDO] 데이터 시트 분석 
+
+
+
+
+[MIC69303YME_LDO] : https://www.mouser.kr/ProductDetail/Microchip-Technology/MIC69303YME-TR?qs=U6T8BxXiZAXUDAWYMs%2Fg0g%3D%3D
+
