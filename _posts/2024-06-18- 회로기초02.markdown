@@ -161,7 +161,10 @@ DC신호는 저주파, AC는 고주파이다. 인덕터는 저주파를 통과�
 리니어 레귤레이터 : 입력 출력력, 피드백(출력이 가변일 경우 출력 전압의 귀한이 필요) 핀으로 구성 
 구성회로 간단, 안정성 높음, 리니어 레귤레이터는 피득백 제어시스템이기 때문에
  입력과 출력에 반드시 권장하는 커패시터를 달아줘야함. 요량은 각 레귤레이터의 데이터시트를 참조
+ 
+ 
  피드 포워드 커패시터 관련 정리 링크 
+
 https://www.seminet.co.kr/channel_micro.html?menu=content_sub&com_no=702&category=article&no=9121
 
 LDO 레귤레이터 : 리니어 레귤레이터의 한 종류. 낮은 입출력 준위차에도 동작하는 리니어 레귤레이터. 5V입력을 받으면 4.7V나 4.5V처럼 
@@ -177,7 +180,8 @@ LDO 레귤레이터 : 리니어 레귤레이터의 한 종류. 낮은 입출력 
 
 [MIC69303YME_LDO] 데이터 시트 분석 
 
-
+	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_016.jpg
+	" alt="" title="MIC69303YME_LDO"/>
 
 
 [MIC69303YME_LDO] : https://www.mouser.kr/ProductDetail/Microchip-Technology/MIC69303YME-TR?qs=U6T8BxXiZAXUDAWYMs%2Fg0g%3D%3D
