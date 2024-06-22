@@ -182,9 +182,27 @@ LDO 레귤레이터 : 리니어 레귤레이터의 한 종류. 낮은 입출력 
 
 [MIC69303YME_LDO] 데이터 시트 분석 
 
+
+Features 
+
 	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_016.jpg
 	" alt="" title="MIC69303YME_LDO"/>
 
+인풋 전압 : 1.65~ 5.5V입력을
+최대 드롭아웃 : 500mv(0.5)만큼 전압 하강하게 만들수 있다. 1.65가 입력되면 최대 1.65-0.5 =  1.15v만큼 전압 하강이 가능하다. 
+안정적인 입출력을 위해서 10uF세라믹 커패시터를 달아줘야함. 
+
+
+
+Trypical Application
+	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_016.jpg
+	" alt="" title="MIC69303YME_LDO"/>
+
+
+MIC6931은 어떤 입력 전압이라도 1.2V고정 출력,
+출력에 OUT-FLG 100K옴 저항이 필요하고 안정적인 입력과 출력을 위해서 10uF 세라믹 캐패시터가 필요하다. 
+
+MIC69302/3은 R1과 R2로 출력전압의 조절 가능하다.
 
 [MIC69303YME_LDO] : https://www.mouser.kr/ProductDetail/Microchip-Technology/MIC69303YME-TR?qs=U6T8BxXiZAXUDAWYMs%2Fg0g%3D%3D
 
