@@ -180,25 +180,43 @@ LDO 레귤레이터 : 리니어 레귤레이터의 한 종류. 낮은 입출력 
 
 
 
-[MIC69303YME_LDO] 데이터 시트 분석 
+ LDO레귤레이터 [MIC69303YME_LDO] 데이터 시트 분석 
 
 
-Features 
+
 ​<div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_016.jpg
 	" alt="" title="MIC69303YME_LDO"/>
 </div>
+
+
+[General Description]
+MIC69301/2/3은 1A, 1.5A, 3A 및 5A의 전류를 지원하는 MIC69xxx 고전류, 저전압 레귤레이터 제
+품군의 3A 출력 전류 제품입니다. 이 제품군은 단일 저전압 공급 장치로 작동하지만 최악의 조건에서도 높은 정밀도와 500mV의 초저드롭아웃을
+제공합니다.
+MIC69301/2/3은 1.65~5.5V의 입력 전압에서 작동합니다.
+이는 고전류에서 저전압이 필요한 디지털 회로(예: PLD, DSP, 마이크로컨트롤러 등)를 구동하도록 설계되었습니다. 이 레귤레이터는 조정 가능 및 고정 출력 전압으로 제공됩니다. 조정 가능한 버전은 최저 0.5V까지 출력 전압을 지원할 수 있습니다.
+MIC69301/2/3의 캡 설계는 낮은 값, 낮은 ESR 세라믹 출력 커패시터의 안정성을 위해 최적화되었습니다.
+MIC69301/2/3의 기능에는 열 차단 및 전류 제한 보호가 포함됩니다. 논리 활성화 및 오류 플래그 핀도사용할 수 있습니다.
+MIC69301/2/3은 TO-263, S-PAK 및 ePad SOIC-8패키지로 제공됩니다. MIC69303은 12핀 4mm x4mm MLFT™ 패키지로도 제공됩니다. 모든 패키지의 작동 온도 범위는 -40°C ~ +125°C입니다.
+데이터시트와 지원 문서는 Micrel 웹사이트www.micrel.com에서 찾을 수 있습니다.
+
+
+Features 
 인풋 전압 : 1.65~ 5.5V입력을
 최대 드롭아웃 : 500mv(0.5)만큼 전압 하강하게 만들수 있다. 1.65가 입력되면 최대 1.65-0.5 =  1.15v만큼 전압 하강이 가능하다. 
 안정적인 입출력을 위해서 10uF세라믹 커패시터를 달아줘야함. 
 
 
 
-Trypical Application
+
 ​<div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_017.jpg
 	" alt="" title="MIC69303YME_LDO"/>
 </div>
+
+
+Trypical Application
 
 MIC6931은 어떤 입력 전압이라도 1.2V고정 출력,
 출력에 OUT-FLG 100K옴 저항이 필요하고 안정적인 입력과 출력을 위해서 10uF 세라믹 캐패시터가 필요하다. 
@@ -206,22 +224,43 @@ MIC6931은 어떤 입력 전압이라도 1.2V고정 출력,
 MIC69302/3은 R1과 R2로 출력전압의 조절 가능하다.
 
 아래 출력 전압의 조절 공식 확인. 
+
+
 MIC69302/3 Adjustable Regulator Design
 ​<div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_019.jpg
 	" alt="" title="MIC69303YME_LDO"/>
 	</div>
+	
+	
 전압 조절할 조항읁 10k옴을 초과하면 안됨. 	
 Vout = 0.5((R1/R2)+1)
 
 
 
-Ordering Information
+
 ​<div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_018.jpg
 	" alt="" title="MIC69303YME_LDO"/>
 	</div>
+	
+Ordering Information
 실제 주문 부품 파트 넘버 
+
+
+
+
+스위칭 레귤레이터 [TPS62130A] 데이터 시트 분석
+
+
+​<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_020.jpg
+	" alt="" title="MIC69303YME_LDO"/>
+	</div>
+	
+	
+
+[TPS62130A]:  https://www.mouser.com/datasheet/2/405/tps62131-449637.pdf
 
 
 
