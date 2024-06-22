@@ -195,7 +195,7 @@ Features
 
 
 Trypical Application
-	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_016.jpg
+	<img class="col three" src="{{ site.baseurl }}/img/post/01_pcbBasic/img_017.jpg
 	" alt="" title="MIC69303YME_LDO"/>
 
 
