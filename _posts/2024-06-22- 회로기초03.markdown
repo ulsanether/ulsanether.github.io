@@ -115,6 +115,37 @@ led
 </div>
 
 
-
 파워 온 리셋회로를 설명하면, 저항과 커패시터의 충 방전을 이용해 리셋 신호를 발생시키는 회로. 
 
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/post/02_pcbBasic/img_07.jpg
+	" alt="" title="바운스 디바운스"/>
+</div>
+
+바운스 현상(채터링)을 디바운스 회로로 해결 할 수 있다. 스위치와 R1과 C1의 구조를 확인하자. RC필터로 애매한 신호를 제거한다. 
+
+
+[adm6711s]
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/post/02_pcbBasic/img_07.jpg
+	" alt="" title="바운스 디바운스"/>
+</div>
+
+MR : Manual Reset Input가 있다. 자체적으로 디바운스 회로가 있기에 스위치를 연결해서 리셋을 시켜도 채터링이 생기지 않는다. 
+
+
+<div class="img_row">
+	<img class="col one" src="{{ site.baseurl }}/img/post/02_pcbBasic/img_07.jpg
+	" alt="" title="바운스 디바운스"/>
+</div>
+
+ADM671_S를 쓴다고 했을대 Reset Voltage Threshold가 2.93v이다. 그래서 vcc가 2.93v보다 크면 0이 출력되고, 2.93보다 작으면 high가 출력된다. 
+
+
+<div class="img_row">
+	<img class="col one" src="{{ site.baseurl }}/img/post/02_pcbBasic/img_10.jpg
+	" alt="" title="바운스 디바운스"/>
+</div>
+
+스위치를 달아주면 디바운스를 통해서 채터링 형성을 없애주고, 리셋신호를 240ms동안 유지시켜준다. 리셋을 위해서 이러한 ic를 사용하는것이 좋다. 
