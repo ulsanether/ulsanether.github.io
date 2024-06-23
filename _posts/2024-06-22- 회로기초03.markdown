@@ -128,7 +128,7 @@ led
 [adm6711s]
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/post/02_pcbBasic/img_07.jpg
+	<img class="col three" src="{{ site.baseurl }}/img/post/02_pcbBasic/img_08.jpg
 	" alt="" title="바운스 디바운스"/>
 </div>
 
@@ -136,7 +136,7 @@ MR : Manual Reset Input가 있다. 자체적으로 디바운스 회로가 있기
 
 
 <div class="img_row">
-	<img class="col one" src="{{ site.baseurl }}/img/post/02_pcbBasic/img_07.jpg
+	<img class="col one" src="{{ site.baseurl }}/img/post/02_pcbBasic/img_09.jpg
 	" alt="" title="바운스 디바운스"/>
 </div>
 
