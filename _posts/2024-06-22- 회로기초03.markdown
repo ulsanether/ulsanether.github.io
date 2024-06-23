@@ -103,3 +103,18 @@ led
 일시적으로 고전압이 들어오면 회로가 손상되지 않게 전압을 내려줌. 서지및 ESD손상과 같은 일시적으로 고전압이 
 가해졌을때 순간적으로 회로를 방지 해주는 장치다.
 
+
+
+
+[리셋회로]
+
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/post/02_pcbBasic/img_06.jpg
+	" alt="" title="AC 커플링"/>
+</div>
+
+
+
+파워 온 리셋회로를 설명하면, 저항과 커패시터의 충 방전을 이용해 리셋 신호를 발생시키는 회로. 
+
