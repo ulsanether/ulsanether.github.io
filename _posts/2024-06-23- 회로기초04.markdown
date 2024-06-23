@@ -1,0 +1,50 @@
+---
+layout: post
+title:  "회로기초03"
+date:   2024-06-23 12:00:15 +0900
+categories: 회로기초 강좌 정리 하는것. 
+---
+
+[OPAMP] 연산 증폭기
+
+
+<div class="img_row">
+	<img class="col one" src="{{ site.baseurl }}/img/post/03_pcbBasic/img_01.jpg
+	" alt="" title="OPAMP"/>
+</div>
+
+Vcc = 5v
+Vee = gnd 라고 했을때
+연결되면 OUT는 0~5V사이의 출력을 정할수 있다. 입력 역시 +IN, -IN = 0~5V 사이에서만 입력이 가능하다. 전압 범위를 VCC와 VEE로 조절 할있는것이다. OPAMP를 잘써도 회로 설계의 반은 간다. 
+
+
+<div class="img_row">
+	<img class="col one" src="{{ site.baseurl }}/img/post/03_pcbBasic/img_02.jpg
+	" alt="" title="OPAMP"/>
+</div>
+
+가장 간단한 구조의 OPAMP이다. 
+
+① 소자의 윗부분이 패여 있어, 위, 아래의 구분이 가능
+② output voltage = A × (non-inverting input voltage + (-1) × inverting input voltage)
+○ non-inverting input voltage를 v2이라고도 함
+○ inverting input voltage를 v1이라고도 함
+③ Op Amp는 전원으로부터 에너지를 공급받음 (④, ⑤) : 두 개의 전원 단자가 필요함
+④ offset null : Op Amp의 출력오차를 조절하는 데 사용 (⑥, ⑦)
+⑤ NC(no connection) : 전혀 사용하지 않는 부위 (⑧)
+
+
+[전압 플로워]
+입력 신호와 동일하게 출력신호를 주는것이다. 전류 이득을 위한 것이다. 입력전압추종 또는 전압 버퍼회로라고 한다. 전압신호의 임피던스를 낮추는 목적으로 사용. 즉 전류를 증폭시키는 것이 목적이다. 
+
+<div class="img_row">
+	<img class="col one" src="{{ site.baseurl }}/img/post/03_pcbBasic/img_03.jpg
+	" alt="" title="OPAMP"/>
+</div>
+
+모든 출력전압이 반전입력 단자로 귀환되는 형태로 당연히 입력 신호와 출력신호의 페루프 전압이득은 1이다. ​Vin = Vout (Unity GAIN BUFFER 라고도 한다.)
+
+ 
+
+
+
