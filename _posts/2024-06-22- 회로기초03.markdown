@@ -18,11 +18,88 @@ n형 반도체의 단자 = 캐소드(cathode) = 음극(-)
 실리콘(si)는 0.6~0.7v 게르마늄(ge)는 0.2~0.3v가 필요하다. 
 
 
+[정류 다이오드]
+회로의 전류를 한쪽으로 흐르게 함. 
+
+
+[스위칭 다이오드]
+고속으로 ON /OFF 스위치를 응용함. 
+
 [정전압 - 제너다이오드]
 
-불순물을 함유하고 있고 pn의 불순물의 햠량에 따라 항복전압이 높아지고 낮아지게됨. 
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/post/02_pcbBasic/img_01.png
+	" alt="" title="AC 커플링"/>
+</div>
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/post/02_pcbBasic/img_02.png
+	" alt="" title="AC 커플링"/>
+</div>
+
+불순물을
+ 함유하고 있고 pn의 불순물의 햠량에 따라 항복전압이 높아지고 낮아지게됨. 
 높은 전압을 가해주면 망가져서 망가진 쪽으로 누설 전류가 흐르게 되고 전압을 조금만 높여도 많은 전류가 흘러들어가는 문제가 발생. 
-소자가 손상되는 시점의 전압을 항복전압이라하며, 제너다이오드는 그 항복전압을 역으로 이용햐여 회로를 안정시켜주는 역활. 
-역전압이 들어와서 항복 전압이 높아져도 일정 전압을 유지시켜주는것이 제너다이오드의 역활이고 많은 전압이 들어와도 회로가 손상되지 않게 
-전압을 내려준다. 다시 말해서 회로 보호의 역활이다. 
+소자가 손상되는 시점의 전압을 항복전압이라하며, 제너다이오드는 그 항복전압을 역으로 이용햐여 전압을 일정하게 유지시켜준다.  
+역전압이 들어와서 항복 전압이 높아져도 일정 전압을 유지시켜주는것이 제너다이오드의 역활
+
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/post/02_pcbBasic/img_03.png
+	" alt="" title="AC 커플링"/>
+</div>
+
+입력 전압이 5.1v이상이면 제너다이오드에서 항복현상이 일어나서 5.1v 정전압으로 출력되며 만약 5.1v이하의 입력전압이 들어 온다며 그 전압으로 출력된다. 
+
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/post/02_pcbBasic/img_04.png
+	" alt="" title="AC 커플링"/>
+</div>
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/post/02_pcbBasic/img_04.jpg
+	" alt="" title="AC 커플링"/>
+</div>
+
+제너 다이오드 1N4733의 경우 제너 전압이 5.1V이고 정격 전류는 178mA
+Rs = (12-5.1) / 0.178 = 38.7옴
+
+저항은 39옴 짜리를 사용하면된다. 
+
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/post/02_pcbBasic/img_05.png
+	" alt="" title="AC 커플링"/>
+</div>
+
+R1 (20KΩ): 직렬 저항
+R2 (10KΩ): 접지에 연결된 저항
+D1 (5V 제너 다이오드): ADC 입력을 보호하는 클램프 다이오드
+
+전압 분배기: R1과 R2는 전압 분배기를 형성하여 입력 전압을 낮춥니다.
+제너 클램핑: 5V 제너 다이오드는 입력 신호가 예상 범위를 초과하더라도 ADC 입력의 전압이 5V를 넘지 않도록 보장합니다.
+
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/post/02_pcbBasic/img_05.jpg
+	" alt="" title="AC 커플링"/>
+</div>
+
+
+이러한 공식으로 출력은 5V를 유지하게 된다. 
+
+
+
+[가변 용량 다이오드]
+fm변조와 afc동조에 가변용량 특성을 응용함. 
+
+[발광 다이오드]
+led
+
+[MES(쇼트키)다이오드]
+금속과 반도체를 결합하여 낮은 전압에서도 사용이 가능. 
+
+[TVS 다이오드]
+일시적으로 고전압이 들어오면 회로가 손상되지 않게 전압을 내려줌. 서지및 ESD손상과 같은 일시적으로 고전압이 
+가해졌을때 순간적으로 회로를 방지 해주는 장치다.
 
