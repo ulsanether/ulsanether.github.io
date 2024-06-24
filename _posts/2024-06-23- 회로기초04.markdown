@@ -47,4 +47,54 @@ Vee = gnd 라고 했을때
  
 
 
+[반전 OPAMP] 반전 증폭기.
+
+반전 입력단자(-)에 입력을 가해 증폭 작용을 하는 회로. (-)단자에 입력을 가하고(+) 단자를 접지하여 사용.
+VOUT =  -(R1 /R2) * VIN
+
+
+<div class="img_row">
+	<img class="col one" src="{{ site.baseurl }}/img/post/03_pcbBasic/img_06.png
+	" alt="" title="OPAMP"/>
+</div>
+
+반전 증폭회로 구조와 공식 
+VIN이 -로 들어가는 구조이다. 음전원을 양전원으로 양전원을 음전원으로 변환 할때 반전을 준다. RF신호나 아날로그 신호와 관련된 것을 디지털 로직으로 제어를 위한 반전 증폭기를 쓰게 된다. 
+
+
+
+[비반전 OPAMP]
+<div class="img_row">
+	<img class="col one" src="{{ site.baseurl }}/img/post/03_pcbBasic/img_07.png
+	" alt="" title="OPAMP"/>
+</div>
+
+
+비반전 입력 단자인(+) 입력을 가해 증폭 작용을 하는회로 (+)단자에 입력을 가하고(-)단자에 연결된 저항을 접지하여 사용한다. 
+VOUT = (1+ R2/R1) * VIN 
+(1+ R2/R1)가 전압이 된다. 이 비율에 따라 전압이 증폭 된다. 
+
+
+
+[비교기 OPAMP] COMPARATOR OPAMP
+
+
+아날로그 입력 전압을 기준전압과 비교해서 결과를 디지털 신호로 출력하는 소자. 
+한쪽 입력 단자에는 기준 전압을 입력, 다른 한쪽에는 비교되어야할 전압을 입력. 
+V+가 V-보다 크면 VCC(HIGH)출력
+V-가 V+보다 크면 VEE(LOW)출력
+V++ 크면 true인 if문이라고 생각하는게 편하다. 
+
+비교기 관련 영상 링크 
+https://youtu.be/mYcA6I5z6tc?si=lQBm4FAOQ0FtRXZm
+
+
+
+[LT1813 DATASHEDT]
+<div class="img_row">
+	<img class="col one" src="{{ site.baseurl }}/img/post/03_pcbBasic/img_04.jpg
+	" alt="" title="OPAMP"/>
+</div>
+
+
 
