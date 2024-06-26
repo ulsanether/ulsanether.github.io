@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "회로기초03"
+title:  "회로기초04"
 date:   2024-06-23 12:00:15 +0900
 categories: 회로기초 강좌 정리 하는것. 
 ---
@@ -91,10 +91,15 @@ https://youtu.be/mYcA6I5z6tc?si=lQBm4FAOQ0FtRXZm
 
 
 [LT1813 DATASHEDT]
+
 <div class="img_row">
 	<img class="col one" src="{{ site.baseurl }}/img/post/03_pcbBasic/img_04.jpg
 	" alt="" title="OPAMP"/>
 </div>
 
 
+
+[적분기]
+
+입력신호를 적분하여 그 결과를 출력신호로 나타내는 신호. Vi가 입력으로 들어가 출력 Vo는 Vi의 적분으로 결과가 출력. 
 
