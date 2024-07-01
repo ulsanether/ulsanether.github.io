@@ -103,3 +103,34 @@ https://youtu.be/mYcA6I5z6tc?si=lQBm4FAOQ0FtRXZm
 
 입력신호를 적분 결과 값에 비례하여 그 결과를 출력신호로 나타내는 신호. Vi가 입력으로 들어가 출력 Vo는 Vi의 적분으로 결과가 출력. 
 
+
+<div class="img_row">
+	<img class="col one" src="{{ site.baseurl }}/img/post/03_pcbBasic/img_05.jpg
+	" alt="" title="OPAMP"/>
+</div>
+
+
+
+적분기의 계산
+
+
+[미분기]
+
+
+<div class="img_row">
+	<img class="col one" src="{{ site.baseurl }}/img/post/03_pcbBasic/img_06.jpg
+	" alt="" title="OPAMP"/>
+</div>
+
+
+[차동증폭기]
+입력된 두 신호의 차이를 증폭 시키는 증폭기. 
+동상임력(공통모드)와 차동입(차동모드) 2가지의 모드로 동작. 
+동상입력(공통모드)는 잡은제거를 위한 회로
+
+CMRR: 차동층복기에서 공통모드 신호를 제거하는 능력을 나타내는 파라미터. 전송선로의 노이즈를 줄이는데 중요하고 높을수록 좋은 차동 증폭기. 
+
+
+
+[Slew Rate]
+출력 전압의 시간당 최대변화율을 뜻함. opamp의 동작 속도를 나타내는 파라미터. 
