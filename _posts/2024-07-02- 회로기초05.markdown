@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "회로기초05"
+date:   2024-07-02 12:00:15 +0900
+categories: 회로기초 강좌 정리 하는것. 
+---
+
+[ADC]
+
+Analog to Digital converter의 약자. 
+즉 연속적인 analog 신호를 0과 1로 discrete하게 구성된 digital 신호로 변환하는 칩(I/C)이다.
+
+<div class="img_row">
+	<img class="col one" src="{{ site.baseurl }}/img/post/03_pcbBasic/img_07.jpg
+	" alt="" title="ADC"/>
+</div>
+
+
+ADC 변환과정
+
+1.필터링
+ -아날로그 신호의 노이즈들을 제거 
+ 
+2. 샘플링[표본화]
