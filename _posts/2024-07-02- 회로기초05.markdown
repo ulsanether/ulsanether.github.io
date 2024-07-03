@@ -19,6 +19,27 @@ Analog to Digital converter의 약자.
 ADC 변환과정
 
 1.필터링
- -아날로그 신호의 노이즈들을 제거 
+ -아날로그 신호의 노이즈들을 제거, 필터링에는 LP(LowPass)나 HP가 있을수 있다.
+ 
  
 2. 샘플링[표본화]
+-샤논의 표본화 정리에 따른 표본값을 추출-> 복원가능한 정도의 신호만을 이산하는 과정
+표본화는 원 신호를 시간축 상에서 일정한 주기로 표본값을 추출하는 것을 의미. 
+이렇게 추출된 펄스열을 플스 진폭 변조(PAM, Pulse amplitude Modulation)이라함. 
+
+
+3. 양자화
+-샘플링에서 얻은 pam신호를 유한한 수의 진폭값을 가장 가까운 값으로 근사화 하는 과정. 진폭축에 따라 이산값으로 변환
+
+4. 부호화 
+양자화된 신호 전송시에 잡음에 민감하므로 전송및 처리에 적합하도록 부호화 
+
+
+[ADC방식의 종류]
+
+1.SAR ADC(Successive Approximation ADC - 축차 비교형)
+
+<div class="img_row">
+	<img class="col one" src="{{ site.baseurl }}/img/post/03_pcbBasic/img_08.png
+	" alt="" title="OPAMP"/>
+</div>
