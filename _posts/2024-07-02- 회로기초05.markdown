@@ -39,7 +39,66 @@ ADC 변환과정
 
 1.SAR ADC(Successive Approximation ADC - 축차 비교형)
 
+장점 : 구조가 간단. 정확도가 다른 ADC에 비해 정확
+단점 : 샘플링 속도가 느리고, 비교기의 숫자가 늘어날 수록 비용 부담이 커짐. 
+
+
 <div class="img_row">
 	<img class="col one" src="{{ site.baseurl }}/img/post/03_pcbBasic/img_08.png
 	" alt="" title="OPAMP"/>
 </div>
+
+우선 SAR의 최상이 비트를 0으로 설정하고 나머지를 1로 설정. 
+SAR의 초기값 = 01111111(또는 10000000) => DAC => VDAC는 VREF/2 근처. 
+
+만약 DAC 전압보다 입력 전압이 작다면 VREF의 반 이하가 됨. 즉 DAC로 변환된 아날로그 전압이 입력전압과 비교하여 작다변 비교기의 
+출력이 logic '1'로 출력이 되고, 출력값을 보고 SAR의 최상이 비트를 0으로 설정. 
+
+변환 방식​
+
+(1) 레지스터 또는 아날로그 전압으로 변환 시작에 대한 신호가 전달된다.
+
+(2) 제어회로는 MSB부터 변환을 시작한다.
+
+(3) SAR의 초기값은 최상위 비트는 0, 나머지 비트는 1 이다. (sAR = 0111111...11111)
+
+(4) 설정된 분해능 (샘플링 율) 에 따라 DAC는 digital을 analog 전압으로 변환하고, 이를 Vin과 비교한다.
+
+      * DAC 전압보다 Vin이 작으면 (Vin < Vref/2) 최상위 비트를 0으로, Vin이 크면 (Vin > Vref/2) 최상위 비트를 1로 설정한다.
+
+      * 위 변환은 한 클럭동안 이뤄진다. (클럭의 주기 > DAC 변환시간 + 비교기 전파시간 + SAR논리회로 전파시간 + DELAY)
+
+(5) 최상위 비트가 결정되면, 그 다음 비트를 결정해나간다.
+
+(6) 전체 비트 수 만큼 클럭을 진행하면 모든 비트 결정이 완료된다.
+
+(7) 변환이 끝나면 EOC 신호를 설정하여 외부에 변환완료를 알려주며 마무리한다.
+
+<div class="img_row">
+	<img class="col one" src="{{ site.baseurl }}/img/post/03_pcbBasic/img_08.jpg
+	" alt="" title="ADC"/>
+</div>
+<div class="img_row">
+	<img class="col one" src="{{ site.baseurl }}/img/post/03_pcbBasic/img_09.jpg
+	" alt="" title="ADC"/>
+</div>
+
+
+
+
+[Sigma Delta ADC]
+신호의 값을 예측하여, 오차를 구한다음, 누적된 오차를 이용하여 오차를 보정해 나가는 변조 방식. 
+
+<div class="img_row">
+	<img class="col one" src="{{ site.baseurl }}/img/post/03_pcbBasic/img_09.png
+	" alt="" title="ADC"/>
+</div>
+장점. 
+다른 ADC변환 방식보다 정밀하고 정확. 
+가격이 저렵하게 회로를 구성. 
+단점. 
+고속의 신호 변환이 어렵다. 
+
+적분기를 통해 오버 샘플링을 하고, 오차 보정을 해서 디지털 필터를 하는 LPF가 존재하기 때문에 정밀한 ADC라고 보면 된다. 
+샘플링을 여러번 하기 때문에 고속의 신호 변화가 어렵다. 
+
