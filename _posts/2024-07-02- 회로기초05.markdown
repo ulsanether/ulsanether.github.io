@@ -85,6 +85,88 @@ SAR의 초기값 = 01111111(또는 10000000) => DAC => VDAC는 VREF/2 근처.
 
 
 
+[AD9243]
+
+<div class="img_row">
+	<img class="col one" src="{{ site.baseurl }}/img/post/03_pcbBasic/img_10.png
+	" alt="" title="9243"/>
+</div>
+
+병령 방식 14비트 컨버터. 
+샘플링 속도가 3.0msps 라서 클럭 속도는 3.0m 보다 작아야한다. 
+5v공급 전원이 필요하고. 에러율은 아래 2비트 정도는 에러 율이 있을수 있다. 
+
+
+예)입력 전압이 2.5v가 들어오고 기준전압이 5v일경우 
+(2.5*5)* 16384(14비트, 2의 14승) =  8192 
+
+8192는 2진수로 번해서 14비트로 보면  = 10 0000 0000 0000로 변환되어서 출력 된다 보면 된다. 
+이걸 역으로 계산해서 확인한다. 
+
+그래서 AD9243은 아날로그 전압이 들어보면 14비트로 변환해서 확인할 수 있다. 
+
+
+<div class="img_row">
+	<img class="col one" src="{{ site.baseurl }}/img/post/03_pcbBasic/img_11.png
+	" alt="" title="9243"/>
+</div>
+
+클락 주기는 333나노 정도이고 파이프라인 딜레이는 3나노 정도이다. 타이밍 다이어그램을 보면 입력이 들어왔을때 
+3클락 뒤에 데이터를 읽을 수 있다. S1이 들어오면 S4에 읽을 수 있다. 
+
+
+<div class="img_row">
+	<img class="col one" src="{{ site.baseurl }}/img/post/03_pcbBasic/img_12.png
+	" alt="" title="9243"/>
+</div>
+
+핀아웃 구성. 
+7번이 클럭 인풋 핀이고, 클락은 3M보다 낮게 줘야 한다.
+<div class="img_row">
+	<img class="col one" src="{{ site.baseurl }}/img/post/03_pcbBasic/img_13.png
+	" alt="" title="9243"/>
+</div>
+
+
+
+
+[AD7908]
+
+<div class="img_row">
+	<img class="col one" src="{{ site.baseurl }}/img/post/03_pcbBasic/img_14.png
+	" alt="" title="9243"/>
+</div>
+
+12비트와 8개의 아날로그 신호. 속도는 1MPS
+FPGA나 MCU단에서 조절을 해야 한다. 
+
+크기에 배해서 8채널을 받을수 있어 좋다.  
+<div class="img_row">
+	<img class="col one" src="{{ site.baseurl }}/img/post/03_pcbBasic/img_15.png
+	" alt="" title="9243"/>
+</div>
+
+1: 칩의 속도를 지정해줄 클락 입력
+2: 컨트롤 레지스터 사용
+3: 칩샐렉, 제어를 해줘야 한다 
+5,6: 0~5V까지 범위 
+7: 레퍼런스 전압 설정
+18 : 데이터 받는 부분. 
+ 
+<div class="img_row">
+	<img class="col one" src="{{ site.baseurl }}/img/post/03_pcbBasic/img_16.png
+	" alt="" title="9243"/>
+</div>
+컨트롤 레지스터 제어 부분 항목.12비트 데이터 항목을 확인하자. 
+
+ 
+<div class="img_row">
+	<img class="col one" src="{{ site.baseurl }}/img/post/03_pcbBasic/img_17.png
+	" alt="" title="9243"/>
+</div>
+칩 셀렉(CS) 부분이 1로 유지 되었다가. low로 떨어지는 순간 클럭(sclk)을 입력 해준다. 
+클락이 1에서 0으로 떨어질때부터 시작한다.  각각의 16개의 클럭을 위 레지스터 부분과 비교해 끝나는 시점에 쓰기가 끝난다. 
+
 
 [Sigma Delta ADC]
 신호의 값을 예측하여, 오차를 구한다음, 누적된 오차를 이용하여 오차를 보정해 나가는 변조 방식. 
