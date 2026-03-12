@@ -3,22 +3,27 @@ layout: default
 ---
 
 <div class="header-bar">
- <img src="img/logo.png" alt="로고이미지" style="width: 200px; height: 200px;">
+ <img src="img/logo.png" alt="로고이미지" style="width: 160px; height: 160px; border-radius: 50%; box-shadow: 0 4px 16px rgba(0,0,0,0.12);">
   <h4>우스꽝스런 우주</h4>
-  <br/>
 </div>
-  <hr>
-  <br/>
-
+<hr>
 
 <ul class="post-list">
     {% for post in paginator.posts %}
       <li>
-        <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-        <p class="post-meta">{{ post.date | date: '%B %-d, %Y — %H:%M' }}</p>
-        <p>{{ post.description }}</p>
-        <br/>
-        <hr/>
+        {% if post.categories.size > 0 %}
+        <span class="post-category">{{ post.categories | first }}</span>
+        {% endif %}
+        <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        <p class="post-meta">
+          <i class="fa fa-calendar" aria-hidden="true"></i>
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%Y년 %-m월 %-d일' }}</time>
+        </p>
+        {% if post.description %}
+        <p class="post-excerpt">{{ post.description }}</p>
+        {% elsif post.excerpt %}
+        <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>
+        {% endif %}
       </li>
     {% endfor %}
 </ul>
