@@ -1,7 +1,15 @@
 <footer class="site-footer">
 
   <div class="wrapper">
-  	<p></p>
+    <p>
+      &copy; {{ site.time | date: "%Y" }} {{ site.title }}
+      &nbsp;·&nbsp;
+      <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">
+        <i class="fa fa-github"></i> {{ site.github_username }}
+      </a>
+      &nbsp;·&nbsp;
+      천천히 업데이트됩니다
+    </p>
   </div>
 
 </footer>
